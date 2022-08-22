@@ -43,4 +43,26 @@ public class SayMeHelloTest
             phrases[1].Should().Be(expected2call);
         }
     }
+
+    [Theory(DisplayName = "Deve imprimir a saudação de acordo com o nome passado como parâmetro.")]
+    [InlineData("Rahel", "Ok, Hello Rahel!")]
+    [InlineData("Marina", "Ok, Hello Marina!")]
+    [InlineData("Luiz", "Ok, Hello Luiz!")]
+    [InlineData("Arthur", "Ok, Hello Arthur!")]
+    [InlineData("Livia", "Ok, Hello Livia!")]
+    public void TestHelloSayYourName(string entry, string expected)
+    {
+        using (var stringWriter = new StringWriter())
+        {
+            using (var stringReader = new StringReader(String.Join("\n", entry)))
+            {
+            Console.SetOut(stringWriter);
+            Console.SetIn(stringReader);
+            SayMeHello.HelloSayYourName();
+
+            var greeting = stringWriter.ToString().Trim();
+            greeting.Should().Contain(expected);
+            }
+        }
+    }
 }
