@@ -4,7 +4,7 @@ using WorkTools;
 
 public class WorkToolsTest
 {
-    [Theory(DisplayName = "Deve realizar a contagem do valor passado como parâmetro")]
+    [Theory(DisplayName = "Deve realizar a contagem do valor passado como parâmetro.")]
     [InlineData(new int[] {1, 1, 1}, 1, 3)]
     [InlineData(new int[] {1, 2, 1}, 1, 2)]
     [InlineData(new int[] {1, 2, 3}, 1, 1)]
@@ -26,5 +26,16 @@ public class WorkToolsTest
         var position = NumbersTools.IndexOf(entNumbers, value);
         
         position.Should().Be(positionExpected);
+    }
+
+    [Theory(DisplayName = "Deve contar a quantidade de números pares.")]
+    [InlineData(new int[] {5, 3, 7}, 0)]
+    [InlineData(new int[] {11, 9, 10}, 1)]
+    [InlineData(new int[] {8, 9, 10}, 2)]
+    public void TestCountEvenNumbers(int[] entNumbers, int countExpected)
+    {
+        var count = NumbersTools.CountEvenNumbers(entNumbers);
+        
+        count.Should().Be(countExpected);
     }
 }
