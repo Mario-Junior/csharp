@@ -14,4 +14,17 @@ public class WorkToolsTest
         
         count.Should().Be(countExpected);
     }
+
+    [Theory(DisplayName = "Deve localizar a posição do número no array vetor.")]
+    [InlineData(new int[] {5, 6, 7}, 5, 0)]
+    [InlineData(new int[] {8, 9, 10}, 9, 1)]
+    [InlineData(new int[] {11, 12, 13}, 13, 2)]
+    [InlineData(new int[] {11, 12, 13, 13}, 13, 2)]
+    [InlineData(new int[] {11, 12, 13}, 10, -1)]
+    public void TestIndexOf(int[] entNumbers, int value, int positionExpected)
+    {
+        var position = NumbersTools.IndexOf(entNumbers, value);
+        
+        position.Should().Be(positionExpected);
+    }
 }
