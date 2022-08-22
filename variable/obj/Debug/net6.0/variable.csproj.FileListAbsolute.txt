@@ -1,0 +1,12 @@
+/home/mariojunior/csharp/projects/variable/bin/Debug/net6.0/variable.deps.json
+/home/mariojunior/csharp/projects/variable/bin/Debug/net6.0/variable.dll
+/home/mariojunior/csharp/projects/variable/bin/Debug/net6.0/variable.pdb
+/home/mariojunior/csharp/projects/variable/obj/Debug/net6.0/variable.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/projects/variable/obj/Debug/net6.0/variable.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/projects/variable/obj/Debug/net6.0/variable.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/projects/variable/obj/Debug/net6.0/variable.AssemblyInfo.cs
+/home/mariojunior/csharp/projects/variable/obj/Debug/net6.0/variable.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/projects/variable/obj/Debug/net6.0/variable.dll
+/home/mariojunior/csharp/projects/variable/obj/Debug/net6.0/refint/variable.dll
+/home/mariojunior/csharp/projects/variable/obj/Debug/net6.0/variable.pdb
+/home/mariojunior/csharp/projects/variable/obj/Debug/net6.0/ref/variable.dll

@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/projects/Polygon/obj/Debug/net6.0/Polygon.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/projects/Polygon/obj/Debug/net6.0/Polygon.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/projects/Polygon/obj/Debug/net6.0/Polygon.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/projects/Polygon/obj/Debug/net6.0/Polygon.AssemblyInfo.cs
+/home/mariojunior/csharp/projects/Polygon/obj/Debug/net6.0/Polygon.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/projects/Polygon/bin/Debug/net6.0/Polygon
+/home/mariojunior/csharp/projects/Polygon/bin/Debug/net6.0/Polygon.deps.json
+/home/mariojunior/csharp/projects/Polygon/bin/Debug/net6.0/Polygon.runtimeconfig.json
+/home/mariojunior/csharp/projects/Polygon/bin/Debug/net6.0/Polygon.dll
+/home/mariojunior/csharp/projects/Polygon/bin/Debug/net6.0/Polygon.pdb
+/home/mariojunior/csharp/projects/Polygon/obj/Debug/net6.0/Polygon.dll
+/home/mariojunior/csharp/projects/Polygon/obj/Debug/net6.0/refint/Polygon.dll
+/home/mariojunior/csharp/projects/Polygon/obj/Debug/net6.0/Polygon.pdb
+/home/mariojunior/csharp/projects/Polygon/obj/Debug/net6.0/Polygon.genruntimeconfig.cache
+/home/mariojunior/csharp/projects/Polygon/obj/Debug/net6.0/ref/Polygon.dll

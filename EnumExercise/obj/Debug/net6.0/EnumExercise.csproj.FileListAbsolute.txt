@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/projects/EnumExercise/bin/Debug/net6.0/EnumExercise
+/home/mariojunior/csharp/projects/EnumExercise/bin/Debug/net6.0/EnumExercise.deps.json
+/home/mariojunior/csharp/projects/EnumExercise/bin/Debug/net6.0/EnumExercise.runtimeconfig.json
+/home/mariojunior/csharp/projects/EnumExercise/bin/Debug/net6.0/EnumExercise.dll
+/home/mariojunior/csharp/projects/EnumExercise/bin/Debug/net6.0/EnumExercise.pdb
+/home/mariojunior/csharp/projects/EnumExercise/obj/Debug/net6.0/EnumExercise.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/projects/EnumExercise/obj/Debug/net6.0/EnumExercise.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/projects/EnumExercise/obj/Debug/net6.0/EnumExercise.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/projects/EnumExercise/obj/Debug/net6.0/EnumExercise.AssemblyInfo.cs
+/home/mariojunior/csharp/projects/EnumExercise/obj/Debug/net6.0/EnumExercise.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/projects/EnumExercise/obj/Debug/net6.0/EnumExercise.dll
+/home/mariojunior/csharp/projects/EnumExercise/obj/Debug/net6.0/refint/EnumExercise.dll
+/home/mariojunior/csharp/projects/EnumExercise/obj/Debug/net6.0/EnumExercise.pdb
+/home/mariojunior/csharp/projects/EnumExercise/obj/Debug/net6.0/EnumExercise.genruntimeconfig.cache
+/home/mariojunior/csharp/projects/EnumExercise/obj/Debug/net6.0/ref/EnumExercise.dll

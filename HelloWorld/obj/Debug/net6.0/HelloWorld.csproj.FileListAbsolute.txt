@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/HelloWorld/bin/Debug/net6.0/HelloWorld
+/home/mariojunior/csharp/HelloWorld/bin/Debug/net6.0/HelloWorld.deps.json
+/home/mariojunior/csharp/HelloWorld/bin/Debug/net6.0/HelloWorld.runtimeconfig.json
+/home/mariojunior/csharp/HelloWorld/bin/Debug/net6.0/HelloWorld.dll
+/home/mariojunior/csharp/HelloWorld/bin/Debug/net6.0/HelloWorld.pdb
+/home/mariojunior/csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfo.cs
+/home/mariojunior/csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.dll
+/home/mariojunior/csharp/HelloWorld/obj/Debug/net6.0/refint/HelloWorld.dll
+/home/mariojunior/csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.pdb
+/home/mariojunior/csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.genruntimeconfig.cache
+/home/mariojunior/csharp/HelloWorld/obj/Debug/net6.0/ref/HelloWorld.dll

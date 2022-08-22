@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/projects/StructExercise/bin/Debug/net6.0/StructExercise
+/home/mariojunior/csharp/projects/StructExercise/bin/Debug/net6.0/StructExercise.deps.json
+/home/mariojunior/csharp/projects/StructExercise/bin/Debug/net6.0/StructExercise.runtimeconfig.json
+/home/mariojunior/csharp/projects/StructExercise/bin/Debug/net6.0/StructExercise.dll
+/home/mariojunior/csharp/projects/StructExercise/bin/Debug/net6.0/StructExercise.pdb
+/home/mariojunior/csharp/projects/StructExercise/obj/Debug/net6.0/StructExercise.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/projects/StructExercise/obj/Debug/net6.0/StructExercise.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/projects/StructExercise/obj/Debug/net6.0/StructExercise.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/projects/StructExercise/obj/Debug/net6.0/StructExercise.AssemblyInfo.cs
+/home/mariojunior/csharp/projects/StructExercise/obj/Debug/net6.0/StructExercise.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/projects/StructExercise/obj/Debug/net6.0/StructExercise.dll
+/home/mariojunior/csharp/projects/StructExercise/obj/Debug/net6.0/refint/StructExercise.dll
+/home/mariojunior/csharp/projects/StructExercise/obj/Debug/net6.0/StructExercise.pdb
+/home/mariojunior/csharp/projects/StructExercise/obj/Debug/net6.0/StructExercise.genruntimeconfig.cache
+/home/mariojunior/csharp/projects/StructExercise/obj/Debug/net6.0/ref/StructExercise.dll
