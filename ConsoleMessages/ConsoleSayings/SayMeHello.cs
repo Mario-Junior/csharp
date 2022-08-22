@@ -16,4 +16,13 @@ public class SayMeHello
     Console.WriteLine($"No?");
     Console.WriteLine($"Ok?");
   }
+
+  public static void HelloSayYourName()
+  {
+    Console.WriteLine("Hey, please say me your name:");
+
+    var userName = Console.ReadLine();
+
+    Console.WriteLine($"Ok, Hello {userName}!");
+  }
 }
