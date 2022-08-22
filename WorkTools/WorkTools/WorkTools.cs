@@ -13,4 +13,19 @@ public static class NumbersTools
 
     return count;
   }
+
+  public static int IndexOf(int[] numbers, int value)
+  {
+    var position = -1;
+
+    for (int index = 0; index < numbers.Count(); index++)
+    {
+      if (numbers[index] == value)
+      {
+        position = index;
+        break;
+      }
+    }
+    return position;
+  }
 }
