@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/ArrayStructure/bin/Debug/net6.0/ArrayStructure
+/home/mariojunior/csharp/exercises/ArrayStructure/bin/Debug/net6.0/ArrayStructure.deps.json
+/home/mariojunior/csharp/exercises/ArrayStructure/bin/Debug/net6.0/ArrayStructure.runtimeconfig.json
+/home/mariojunior/csharp/exercises/ArrayStructure/bin/Debug/net6.0/ArrayStructure.dll
+/home/mariojunior/csharp/exercises/ArrayStructure/bin/Debug/net6.0/ArrayStructure.pdb
+/home/mariojunior/csharp/exercises/ArrayStructure/obj/Debug/net6.0/ArrayStructure.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/ArrayStructure/obj/Debug/net6.0/ArrayStructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/ArrayStructure/obj/Debug/net6.0/ArrayStructure.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/ArrayStructure/obj/Debug/net6.0/ArrayStructure.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/ArrayStructure/obj/Debug/net6.0/ArrayStructure.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/ArrayStructure/obj/Debug/net6.0/ArrayStructure.dll
+/home/mariojunior/csharp/exercises/ArrayStructure/obj/Debug/net6.0/refint/ArrayStructure.dll
+/home/mariojunior/csharp/exercises/ArrayStructure/obj/Debug/net6.0/ArrayStructure.pdb
+/home/mariojunior/csharp/exercises/ArrayStructure/obj/Debug/net6.0/ArrayStructure.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/ArrayStructure/obj/Debug/net6.0/ref/ArrayStructure.dll
