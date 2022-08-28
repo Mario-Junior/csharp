@@ -68,14 +68,23 @@ class PlayingWithArrays
 
   public static void jaggedMultiDimensionalArray()
   {
-    int[,] jaggedMultiDimensionalArray = new int[3, 3] {{1,2,3}, {1,2,3}, {1,2,3}};
-    for (int i = 0; i < jaggedMultiDimensionalArray.GetLength(0); i++)
+    // Somente instancio o array mais externo neste primeiro passo
+    // Repare que apenas o primeiro colchete contém número
+    int[][] jaggedArray = new int[4][];
+
+    // Agora preciso instanciar um novo array para cada posição do array mais externo
+    jaggedArray[0] = new int[3] {1,2,3};
+    jaggedArray[1] = new int[5] {1,2,3,4,5};
+    jaggedArray[2] = new int[2] {1,2};
+    jaggedArray[3] = new int[4] {1,2,3,4};
+
+    for (int x = 0; x < jaggedArray.Length; x++)
     {
-      for (int j = 0; j < jaggedMultiDimensionalArray.GetLength(1); j++)
+      Console.Write("\n");
+      for (int y = 0; y < jaggedArray[x].Length; y++)
       {
-        Console.Write("{0} ", jaggedMultiDimensionalArray[i, j]);
+        Console.Write("{0} ", jaggedArray[x][y]);
       }
-      Console.WriteLine();
     }
   }
 }
