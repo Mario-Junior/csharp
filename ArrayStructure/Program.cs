@@ -48,12 +48,12 @@ myArrayInit = new int[10];
 Console.WriteLine("myArrayInit length = " + myArrayInit.Length);
 
 // Arrays multidimensionais
-PlayingWithArrays.commonMultiDimensionalArray();
-PlayingWithArrays.jaggedMultiDimensionalArray();
+PlayingWithArrays.CommonMultiDimensionalArray();
+PlayingWithArrays.JaggedMultiDimensionalArray();
 
 class PlayingWithArrays
 {
-  public static void commonMultiDimensionalArray()
+  public static void CommonMultiDimensionalArray()
   {
     int[,] commonMultiDimensionalArray = new int[3, 3] {{1,2,3}, {1,2,3}, {1,2,3}};
     for (int i = 0; i < commonMultiDimensionalArray.GetLength(0); i++)
@@ -66,7 +66,7 @@ class PlayingWithArrays
     }
   }
 
-  public static void jaggedMultiDimensionalArray()
+  public static void JaggedMultiDimensionalArray()
   {
     // Somente instancio o array mais externo neste primeiro passo
     // Repare que apenas o primeiro colchete contém número
