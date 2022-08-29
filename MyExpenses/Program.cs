@@ -3,6 +3,7 @@
   // Função para transformar um Array de uma única dimensão (uma única linha), em duas dimensões (vide Console.WriteLine ao final do arquivo, na função Main):
   public static int[,] FromArrayToTwoDimArray(int[] array, int lines, int columns)
   {
+    Console.WriteLine("\n" + "** Transformando Array de única dimensão em duas dimensões **");
     int[,] result = new int[lines, columns];
     for (int i = 0; i < array.Length; i++)
     {
