@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mI8b0ZkbI11eJoutMeA/TqG5W72YarGC5zsv4Mbmd40LBEP4vWvCinmQUniJd3L51ijXuKU9S5PadvCC+FUxcw==",
+  "dgSpecHash": "/nD/vdNghx1xvuFTu+t2gqU7RHYctflppIMCxc7opGGEDutaNgCbgQXa2U+fLgt8kjcEn/eXPAeO6WBsTUSpag==",
   "success": true,
   "projectFilePath": "/home/mariojunior/csharp/exercises/MatrixDiagonalSum.Test/MatrixDiagonalSum.Test.csproj",
   "expectedPackageFiles": [
