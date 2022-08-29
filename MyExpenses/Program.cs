@@ -1,5 +1,16 @@
 ﻿class Program
 {
+  // Função para transformar um Array de uma única dimensão (uma única linha), em duas dimensões (vide Console.WriteLine ao final do arquivo, na função Main):
+  public static int[,] FromArrayToTwoDimArray(int[] array, int lines, int columns)
+  {
+    int[,] result = new int[lines, columns];
+    for (int i = 0; i < array.Length; i++)
+    {
+      result[i / lines, i % columns] = array[i];
+    }
+    return result;
+  }
+
   private static int GetNumberOfExpenses() {
     string? numberOfExpenses = Console.ReadLine();
     int numberConverted = Convert.ToInt32(numberOfExpenses);
@@ -34,5 +45,16 @@
     }
 
     Console.WriteLine("O total das despesas é: " + totalExpenses);
+
+    // Console.WriteLine da função de transforamação de Array de uma para duas dimensões:
+    var newArr = FromArrayToTwoDimArray(new int[9], 3, 3);
+    for (int i = 0; i < newArr.GetLength(0); i++)
+    {
+      for (int j = 0; j < newArr.GetLength(1); j++)
+      {
+        Console.Write("{0} ", newArr[i, j]);
+      }
+      Console.WriteLine();
+    }
   }
 }
