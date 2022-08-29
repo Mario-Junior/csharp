@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/MyExpenses/obj/Debug/net6.0/MyExpenses.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/MyExpenses/obj/Debug/net6.0/MyExpenses.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/MyExpenses/obj/Debug/net6.0/MyExpenses.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/MyExpenses/obj/Debug/net6.0/MyExpenses.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/MyExpenses/obj/Debug/net6.0/MyExpenses.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/MyExpenses/bin/Debug/net6.0/MyExpenses
+/home/mariojunior/csharp/exercises/MyExpenses/bin/Debug/net6.0/MyExpenses.deps.json
+/home/mariojunior/csharp/exercises/MyExpenses/bin/Debug/net6.0/MyExpenses.runtimeconfig.json
+/home/mariojunior/csharp/exercises/MyExpenses/bin/Debug/net6.0/MyExpenses.dll
+/home/mariojunior/csharp/exercises/MyExpenses/bin/Debug/net6.0/MyExpenses.pdb
+/home/mariojunior/csharp/exercises/MyExpenses/obj/Debug/net6.0/MyExpenses.dll
+/home/mariojunior/csharp/exercises/MyExpenses/obj/Debug/net6.0/refint/MyExpenses.dll
+/home/mariojunior/csharp/exercises/MyExpenses/obj/Debug/net6.0/MyExpenses.pdb
+/home/mariojunior/csharp/exercises/MyExpenses/obj/Debug/net6.0/MyExpenses.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/MyExpenses/obj/Debug/net6.0/ref/MyExpenses.dll
