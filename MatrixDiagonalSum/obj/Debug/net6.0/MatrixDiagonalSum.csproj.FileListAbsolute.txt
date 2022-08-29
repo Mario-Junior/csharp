@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/bin/Debug/net6.0/MatrixDiagonalSum
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/bin/Debug/net6.0/MatrixDiagonalSum.deps.json
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/bin/Debug/net6.0/MatrixDiagonalSum.runtimeconfig.json
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/bin/Debug/net6.0/MatrixDiagonalSum.dll
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/bin/Debug/net6.0/MatrixDiagonalSum.pdb
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/obj/Debug/net6.0/MatrixDiagonalSum.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/obj/Debug/net6.0/MatrixDiagonalSum.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/obj/Debug/net6.0/MatrixDiagonalSum.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/obj/Debug/net6.0/MatrixDiagonalSum.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/obj/Debug/net6.0/MatrixDiagonalSum.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/obj/Debug/net6.0/MatrixDiagonalSum.dll
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/obj/Debug/net6.0/refint/MatrixDiagonalSum.dll
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/obj/Debug/net6.0/MatrixDiagonalSum.pdb
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/obj/Debug/net6.0/MatrixDiagonalSum.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/MatrixDiagonalSum/obj/Debug/net6.0/ref/MatrixDiagonalSum.dll
