@@ -1,4 +1,6 @@
-﻿class Program
+﻿namespace DiagonalSum;
+
+public class Program
 {
   public static void Main()
   {
