@@ -1,6 +1,4 @@
-/home/mariojunior/csharp/exercises/Functions/PerformanceHall/bin/Debug/net6.0/PerformanceHall
 /home/mariojunior/csharp/exercises/Functions/PerformanceHall/bin/Debug/net6.0/PerformanceHall.deps.json
-/home/mariojunior/csharp/exercises/Functions/PerformanceHall/bin/Debug/net6.0/PerformanceHall.runtimeconfig.json
 /home/mariojunior/csharp/exercises/Functions/PerformanceHall/bin/Debug/net6.0/PerformanceHall.dll
 /home/mariojunior/csharp/exercises/Functions/PerformanceHall/bin/Debug/net6.0/PerformanceHall.pdb
 /home/mariojunior/csharp/exercises/Functions/PerformanceHall/obj/Debug/net6.0/PerformanceHall.csproj.AssemblyReference.cache
@@ -11,5 +9,4 @@
 /home/mariojunior/csharp/exercises/Functions/PerformanceHall/obj/Debug/net6.0/PerformanceHall.dll
 /home/mariojunior/csharp/exercises/Functions/PerformanceHall/obj/Debug/net6.0/refint/PerformanceHall.dll
 /home/mariojunior/csharp/exercises/Functions/PerformanceHall/obj/Debug/net6.0/PerformanceHall.pdb
-/home/mariojunior/csharp/exercises/Functions/PerformanceHall/obj/Debug/net6.0/PerformanceHall.genruntimeconfig.cache
 /home/mariojunior/csharp/exercises/Functions/PerformanceHall/obj/Debug/net6.0/ref/PerformanceHall.dll

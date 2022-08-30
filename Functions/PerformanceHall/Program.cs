@@ -1,20 +1,20 @@
 ﻿using System;
 
-namespace AgeNamespace;
+namespace PerformanceHall;
 
-class PerformanceHall
+public class Age
 {
-  public static void Main()
+  public void Main()
   {
     var age = CalculateAgeByYear(1982);
     var isOfLegalAge = ValidateComingOfAge(age);
   }
-  public static int CalculateAgeByYear(int yearOfBitrh)
+  public int CalculateAgeByYear(int yearOfBitrh)
   {
     return DateTime.Now.Year - yearOfBitrh;
   }
 
-  public static bool ValidateComingOfAge(int age)
+  public bool ValidateComingOfAge(int age)
   {
     return age >= 18;
   }
