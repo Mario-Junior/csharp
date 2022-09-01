@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/bin/Debug/net6.0/MathSystem
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/bin/Debug/net6.0/MathSystem.deps.json
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/bin/Debug/net6.0/MathSystem.runtimeconfig.json
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/bin/Debug/net6.0/MathSystem.dll
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/bin/Debug/net6.0/MathSystem.pdb
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/obj/Debug/net6.0/MathSystem.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/obj/Debug/net6.0/MathSystem.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/obj/Debug/net6.0/MathSystem.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/obj/Debug/net6.0/MathSystem.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/obj/Debug/net6.0/MathSystem.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/obj/Debug/net6.0/MathSystem.dll
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/obj/Debug/net6.0/refint/MathSystem.dll
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/obj/Debug/net6.0/MathSystem.pdb
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/obj/Debug/net6.0/MathSystem.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/MathSystem/obj/Debug/net6.0/ref/MathSystem.dll
