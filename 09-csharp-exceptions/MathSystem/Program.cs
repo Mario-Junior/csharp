@@ -4,4 +4,15 @@
 }
 
 Console.WriteLine("Resultado 1 = " + DivideNumbers(12, 2));
+
+try
+{
+  DivideNumbers(12, 0);
+}
+// catch Genérico com Objeto "Exception" base:
+catch (Exception except)
+{
+  Console.WriteLine($"Ocorreu um erro: {except.Message}");
+}
+
 Console.WriteLine("Resultado 2 = " + DivideNumbers(12, 0)); // Erro: Unhandled exception. System.DivideByZeroException: Attempted to divide by zero.
