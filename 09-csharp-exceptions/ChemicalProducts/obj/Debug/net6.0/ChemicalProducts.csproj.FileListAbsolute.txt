@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/bin/Debug/net6.0/ChemicalProducts
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/bin/Debug/net6.0/ChemicalProducts.deps.json
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/bin/Debug/net6.0/ChemicalProducts.runtimeconfig.json
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/bin/Debug/net6.0/ChemicalProducts.dll
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/bin/Debug/net6.0/ChemicalProducts.pdb
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/obj/Debug/net6.0/ChemicalProducts.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/obj/Debug/net6.0/ChemicalProducts.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/obj/Debug/net6.0/ChemicalProducts.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/obj/Debug/net6.0/ChemicalProducts.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/obj/Debug/net6.0/ChemicalProducts.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/obj/Debug/net6.0/ChemicalProducts.dll
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/obj/Debug/net6.0/refint/ChemicalProducts.dll
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/obj/Debug/net6.0/ChemicalProducts.pdb
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/obj/Debug/net6.0/ChemicalProducts.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/09-csharp-exceptions/ChemicalProducts/obj/Debug/net6.0/ref/ChemicalProducts.dll

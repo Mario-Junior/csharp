@@ -22,3 +22,8 @@ catch (Exception except)
 }
 
 Console.WriteLine("Resultado 2 = " + DivideNumbers(12, 0)); // Erro: Unhandled exception. System.DivideByZeroException: Attempted to divide by zero.
+
+// ATENÇÃO: Diversas cláusulas catch podem ser lançadas em um bloco de código try, porém somente uma será executada.
+// Caso tenha mais de uma cláusula catch, qual será executada?
+// Resposta: A primeira que corresponder de maneira mais exata à exceção que está para ser lançada, capturando das mais específicas para as com menores especificidades.
+// O indicado é que o tipo de exceção deve ser o mais específico possível. Desta forma, evita-se discrepância entre o que é retornado à pessoa usuária em relação ao que realmente ocorreu.
