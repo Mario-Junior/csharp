@@ -1,4 +1,8 @@
-﻿var instance = new NamesWriter();
+﻿string teste = "lala lala laland";
+
+Console.WriteLine(teste.Length);
+
+var instance = new NamesWriter();
 
 instance.WriteName("Tryber");
 
