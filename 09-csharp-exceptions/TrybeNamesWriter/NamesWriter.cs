@@ -1,10 +1,10 @@
-﻿var instance = new Nameswriter();
+﻿var instance = new NamesWriter();
 
 instance.WriteName("Tryber");
 
 instance.WriteName(null);
 
-public class Nameswriter
+public class NamesWriter
 {
 
   // public static void Main() {}
