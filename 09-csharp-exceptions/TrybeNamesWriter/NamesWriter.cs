@@ -2,6 +2,8 @@
 
 instance.WriteName("Tryber");
 
+instance.QuizTrybe();
+
 instance.WriteName(null);
 
 public class NamesWriter
@@ -24,6 +26,31 @@ public class NamesWriter
     {
       Console.WriteLine(exc.Message);
       throw exc;
+    }
+  }
+
+  public void QuizTrybe ()
+  {
+    int? quizNumber = 7;
+
+    try
+    {
+
+      if (quizNumber == null)
+      {
+        throw new NullReferenceException("Número de quiz inválido");
+      }
+
+      Console.WriteLine(string.Concat("Você está no quiz número ", quizNumber));
+                  
+    }
+    catch (NullReferenceException ex)
+    {
+      Console.WriteLine(ex.Message);     
+    }
+    finally
+    {
+      Console.WriteLine("Aqui é o finally!");
     }
   }
 }
