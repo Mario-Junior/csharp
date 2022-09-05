@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mariojunior/csharp/projects/LampsNeeded/LampsNeeded.csproj": {}
+    "/home/mariojunior/csharp/exercises/03-csharp-types/LampsNeeded/LampsNeeded.csproj": {}
   },
   "projects": {
-    "/home/mariojunior/csharp/projects/LampsNeeded/LampsNeeded.csproj": {
+    "/home/mariojunior/csharp/exercises/03-csharp-types/LampsNeeded/LampsNeeded.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mariojunior/csharp/projects/LampsNeeded/LampsNeeded.csproj",
+        "projectUniqueName": "/home/mariojunior/csharp/exercises/03-csharp-types/LampsNeeded/LampsNeeded.csproj",
         "projectName": "LampsNeeded",
-        "projectPath": "/home/mariojunior/csharp/projects/LampsNeeded/LampsNeeded.csproj",
+        "projectPath": "/home/mariojunior/csharp/exercises/03-csharp-types/LampsNeeded/LampsNeeded.csproj",
         "packagesPath": "/home/mariojunior/.nuget/packages/",
-        "outputPath": "/home/mariojunior/csharp/projects/LampsNeeded/obj/",
+        "outputPath": "/home/mariojunior/csharp/exercises/03-csharp-types/LampsNeeded/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mariojunior/.nuget/NuGet/NuGet.Config"

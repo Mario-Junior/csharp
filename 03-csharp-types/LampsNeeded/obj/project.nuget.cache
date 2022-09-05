@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yc1wPUdAOMaFh2AhKmlI8bQxuGOg2OJmqsg7/pYyF+xjoXqZTR02DvRaqfYI8qZw8S+4ovn4RhsYwcxkYPtjuQ==",
+  "dgSpecHash": "w+uQIXcNxQRIQ6w+mHPCf2bzwE6HCZABG51eKbM+uk+cTa39XHTdvCELtvpEpXhm6dnY4f7BoeDPIBA+mksXWw==",
   "success": true,
-  "projectFilePath": "/home/mariojunior/csharp/projects/LampsNeeded/LampsNeeded.csproj",
+  "projectFilePath": "/home/mariojunior/csharp/exercises/03-csharp-types/LampsNeeded/LampsNeeded.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
