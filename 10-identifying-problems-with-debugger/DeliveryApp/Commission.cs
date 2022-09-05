@@ -1,7 +1,9 @@
 ﻿namespace DeliveryApp
 {
-  public class Commision
+  public class Commission
   {
+    public static void Main() {}
+    
     public decimal Calculate(decimal orderPrice)
     {
       try
