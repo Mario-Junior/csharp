@@ -1,6 +1,6 @@
 ﻿//  Rocket.cs
 namespace Program;
-class Rocket
+class RocketBase
 {
   public string? Name { get; set; }
 }
