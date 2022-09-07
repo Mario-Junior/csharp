@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kFwwFMHZzFRDFmhW2+2L25Q7O4VN4qgLyg75PvA/g6bHbEDg6Eq4/QHVZOTQbNdiBWXD+Sy9t9cwElC6top43w==",
+  "dgSpecHash": "uOgwXfd9akSRwoNKgTc6CuxNGyUEP9J3qTjDd91IqHmvz70hX6ksRRqc5b4GyjN7Un9KQV/eRgU7p3r8+uvyDQ==",
   "success": true,
   "projectFilePath": "/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rockets.Test/Rockets.Test.csproj",
   "expectedPackageFiles": [
     "/home/mariojunior/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
+    "/home/mariojunior/.nuget/packages/fluentassertions/6.7.0/fluentassertions.6.7.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/microsoft.net.test.sdk/17.1.0/microsoft.net.test.sdk.17.1.0.nupkg.sha512",
@@ -36,6 +37,7 @@
     "/home/mariojunior/.nuget/packages/system.buffers/4.3.0/system.buffers.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
+    "/home/mariojunior/.nuget/packages/system.configuration.configurationmanager/4.4.0/system.configuration.configurationmanager.4.4.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.diagnostics.diagnosticsource/4.3.0/system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
@@ -78,6 +80,7 @@
     "/home/mariojunior/.nuget/packages/system.security.cryptography.encoding/4.3.0/system.security.cryptography.encoding.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.security.cryptography.openssl/4.3.0/system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.security.cryptography.primitives/4.3.0/system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+    "/home/mariojunior/.nuget/packages/system.security.cryptography.protecteddata/4.4.0/system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.security.cryptography.x509certificates/4.3.0/system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.text.encoding.extensions/4.3.0/system.text.encoding.extensions.4.3.0.nupkg.sha512",
