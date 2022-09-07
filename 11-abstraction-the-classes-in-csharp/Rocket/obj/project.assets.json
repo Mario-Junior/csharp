@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/Rocket.csproj",
-      "projectName": "Rocket",
-      "projectPath": "/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/Rocket.csproj",
+      "projectUniqueName": "/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/RocketBase.csproj",
+      "projectName": "RocketBase",
+      "projectPath": "/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/RocketBase.csproj",
       "packagesPath": "/home/mariojunior/.nuget/packages/",
       "outputPath": "/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/",
       "projectStyle": "PackageReference",

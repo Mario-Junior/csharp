@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/bin/Debug/net6.0/RocketBase
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/bin/Debug/net6.0/RocketBase.deps.json
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/bin/Debug/net6.0/RocketBase.runtimeconfig.json
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/bin/Debug/net6.0/RocketBase.dll
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/bin/Debug/net6.0/RocketBase.pdb
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/Debug/net6.0/RocketBase.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/Debug/net6.0/RocketBase.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/Debug/net6.0/RocketBase.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/Debug/net6.0/RocketBase.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/Debug/net6.0/RocketBase.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/Debug/net6.0/RocketBase.dll
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/Debug/net6.0/refint/RocketBase.dll
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/Debug/net6.0/RocketBase.pdb
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/Debug/net6.0/RocketBase.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/11-abstraction-the-classes-in-csharp/Rocket/obj/Debug/net6.0/ref/RocketBase.dll
