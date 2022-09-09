@@ -2,6 +2,8 @@ namespace RocketFactory;
 
 public class Rocket
 {
+  // Atenção: coloquei a propriedade interna como pública, apenas para fins didáticos, para ver o comportamento!
+  // O correto é que ela fique private por padrão!
   public int _fuel;
   readonly int _maxFuel = 5000;
 
