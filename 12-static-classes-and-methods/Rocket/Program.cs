@@ -2,10 +2,12 @@
 
 class Program
 {
-  public static void Main(string[] args)
+  public static void Main()
   {
-    Rocket rocket1 = new();
-    rocket1.FuelAsPercentage = 10;
+    // Usar inicializadores de objeto (IDE0017)
+    // dotnet_style_object_initializer
+    // https://docs.microsoft.com/pt-br/dotnet/fundamentals/code-analysis/style-rules/ide0017
+    Rocket rocket1 = new() { FuelAsPercentage = 10 };
     Console.WriteLine(rocket1.FuelAsPercentage); // Saída esperada: 10 %
     Console.WriteLine(rocket1._fuel); // Saída esperada: 500 L
 
