@@ -15,6 +15,9 @@ class Program
     Console.WriteLine(cake1.Size); // Saída esperada: Large
     Console.WriteLine(cake1.Flavour); // Saída esperada: Chocolate
 
+    cake1.Flavour = "Strawberry";
+    Console.WriteLine(cake1.Flavour); // Saída esperada: Strawberry
+
     bread1.Type = "Barley"; // Saída esperada: Unhandled exception. System.ArgumentException: Invalid bread type
   }
 }
