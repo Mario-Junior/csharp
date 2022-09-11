@@ -1,6 +1,6 @@
 namespace Vehicles;
 
-class Engine
+public class Engine
 {
   public int Horsepower { get; set; }
   public int Torque { get; set; }
