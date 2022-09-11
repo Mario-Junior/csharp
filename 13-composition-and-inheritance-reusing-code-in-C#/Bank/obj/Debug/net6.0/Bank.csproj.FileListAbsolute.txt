@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/obj/Debug/net6.0/Bank.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/obj/Debug/net6.0/Bank.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/obj/Debug/net6.0/Bank.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/obj/Debug/net6.0/Bank.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/obj/Debug/net6.0/Bank.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/bin/Debug/net6.0/Bank
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/bin/Debug/net6.0/Bank.deps.json
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/bin/Debug/net6.0/Bank.runtimeconfig.json
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/bin/Debug/net6.0/Bank.dll
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/bin/Debug/net6.0/Bank.pdb
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/obj/Debug/net6.0/Bank.dll
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/obj/Debug/net6.0/refint/Bank.dll
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/obj/Debug/net6.0/Bank.pdb
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/obj/Debug/net6.0/Bank.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/13-composition-and-inheritance-reusing-code-in-C#/Bank/obj/Debug/net6.0/ref/Bank.dll

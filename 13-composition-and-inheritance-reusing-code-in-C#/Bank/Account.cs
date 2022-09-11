@@ -9,14 +9,14 @@ public class Account
   public decimal Balance
   {
     get => _balance;
-    private set
+    set
     {
       if (value < 0) throw new ArgumentException("Balance can't be negative!");
       _balance = value;
     }
   }
 
-  public Account(ClientCertificateOption owner)
+  public Account(Client owner)
   {
     Owner = owner;
   }
