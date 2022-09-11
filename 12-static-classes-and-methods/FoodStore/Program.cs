@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace FoodStore;
+
+class Program
+{
+  static void Main()
+  {
+    Restaurant myRestaurant = new("Churrascaria Trybe", "Tryber");
+
+    Bakery myBakery = Bakery.ConvertFromRestaurant(myRestaurant, "Confeitaria Trybe");
+
+    Console.WriteLine(myRestaurant.Name);
+    Console.WriteLine(myBakery.Name);
+  }
+}
