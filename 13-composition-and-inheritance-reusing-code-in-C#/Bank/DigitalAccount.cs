@@ -1,6 +1,6 @@
 namespace Bank;
 
-public class DigitalAccount : Account
+public sealed class DigitalAccount : Account
 {
   public OperatingSystem? AccountCreationOS { get; }
   public DateTime AccountCreationDate { get; } = DateTime.Now;

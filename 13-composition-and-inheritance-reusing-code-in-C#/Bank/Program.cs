@@ -11,13 +11,13 @@ class Program
 
     DigitalAccount newDigital = new(newClient, Environment.OSVersion);
 
-    Console.WriteLine(newDigital.Owner);
+    Console.WriteLine(newClient.Name);
     Console.WriteLine(newDigital.AccountCreationDate);
     Console.WriteLine(newDigital.AccountCreationOS);
 
-    newAccount.Deposit(1000);
+    Console.Write("Depósito em conta comum: "); newAccount.Deposit(1000);
     Console.WriteLine(newAccount.Balance);
 
-    newDigital.Deposit(500);
+    Console.Write("Depósito em conta Digital! "); newDigital.Deposit(500);
   }
 }
