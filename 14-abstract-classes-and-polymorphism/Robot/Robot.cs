@@ -1,6 +1,6 @@
 namespace RobotFactory;
 
-public class Robot
+public class Robot : ICloneable
 {
   public bool HumanAffection { get; } = true;
   public int ProcessingPower { get; set; }
