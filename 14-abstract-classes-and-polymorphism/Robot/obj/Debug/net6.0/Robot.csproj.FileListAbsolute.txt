@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/bin/Debug/net6.0/Robot
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/bin/Debug/net6.0/Robot.deps.json
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/bin/Debug/net6.0/Robot.runtimeconfig.json
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/bin/Debug/net6.0/Robot.dll
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/bin/Debug/net6.0/Robot.pdb
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/obj/Debug/net6.0/Robot.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/obj/Debug/net6.0/Robot.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/obj/Debug/net6.0/Robot.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/obj/Debug/net6.0/Robot.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/obj/Debug/net6.0/Robot.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/obj/Debug/net6.0/Robot.dll
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/obj/Debug/net6.0/refint/Robot.dll
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/obj/Debug/net6.0/Robot.pdb
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/obj/Debug/net6.0/Robot.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/14-abstract-classes-and-polymorphism/Robot/obj/Debug/net6.0/ref/Robot.dll
