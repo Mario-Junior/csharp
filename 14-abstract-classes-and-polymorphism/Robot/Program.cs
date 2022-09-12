@@ -12,10 +12,12 @@ class Program
     };
 
     control.CreateClone(robot);
+    Console.WriteLine(robot.BatteryCapacity);
     control.CreateClone(robot);
     control.CreateClone(robot);
 
-// Como conseguir acessar os itens dos objetos dentro do Array?
+    // Como conseguir acessar os itens dos objetos dentro do Array?
+    // verificar na monitoria!
     foreach (var item in control.Clones)
     {
       Console.WriteLine(item);
