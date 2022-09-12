@@ -1,5 +1,3 @@
-namespace AnimalKingdom;
-
 public class Dog : Animal
 {
   public override string EatingHabits { get; set; } = "Carnivore";

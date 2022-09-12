@@ -1,5 +1,3 @@
-namespace AnimalKingdom;
-
 public abstract class Animal
 {
   public int Age { get; set; }

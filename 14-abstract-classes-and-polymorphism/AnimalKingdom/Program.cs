@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace AnimalKingdom;
+
+public class Program
+{
+  public static void Main()
+  {
+    Dog dog = new();
+    FeedAnimal(dog);
+  }
+  public static void FeedAnimal(Animal animal)
+  {
+    animal.Feed();
+  }
+}
