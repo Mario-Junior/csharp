@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/bin/Debug/net6.0/Protected
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/bin/Debug/net6.0/Protected.deps.json
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/bin/Debug/net6.0/Protected.runtimeconfig.json
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/bin/Debug/net6.0/Protected.dll
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/bin/Debug/net6.0/Protected.pdb
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/obj/Debug/net6.0/Protected.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/obj/Debug/net6.0/Protected.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/obj/Debug/net6.0/Protected.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/obj/Debug/net6.0/Protected.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/obj/Debug/net6.0/Protected.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/obj/Debug/net6.0/Protected.dll
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/obj/Debug/net6.0/refint/Protected.dll
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/obj/Debug/net6.0/Protected.pdb
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/obj/Debug/net6.0/Protected.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/15-access-modifiers/Protected/obj/Debug/net6.0/ref/Protected.dll
