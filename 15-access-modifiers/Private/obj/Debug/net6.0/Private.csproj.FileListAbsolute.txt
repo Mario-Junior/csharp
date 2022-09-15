@@ -3,3 +3,13 @@
 /home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.AssemblyInfoInputs.cache
 /home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.AssemblyInfo.cs
 /home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/bin/Debug/net6.0/Private
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/bin/Debug/net6.0/Private.deps.json
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/bin/Debug/net6.0/Private.runtimeconfig.json
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/bin/Debug/net6.0/Private.dll
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/bin/Debug/net6.0/Private.pdb
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.dll
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/refint/Private.dll
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.pdb
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/ref/Private.dll
