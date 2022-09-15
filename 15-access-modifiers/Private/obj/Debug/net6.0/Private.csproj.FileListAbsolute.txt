@@ -1,0 +1,5 @@
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/15-access-modifiers/Private/obj/Debug/net6.0/Private.csproj.CoreCompileInputs.cache
