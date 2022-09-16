@@ -8,8 +8,14 @@ Console.WriteLine("Longitude: " + anotherLocation.Longitude);
 
 struct Point
 {
-  double x;
-  double y;
+  public int x;
+  public int y;
+
+  public Point(int xArgument, int yArgument)
+  {
+    x = xArgument;
+    y = yArgument;
+  }
 }
 
 struct Coordinate

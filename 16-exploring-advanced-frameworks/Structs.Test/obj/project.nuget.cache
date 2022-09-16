@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R9cpCunfnt+iudL2Z0Mjqw4TjmOm3cj7zhgyIa2N3W6NIQniQiDr88ni4IqoKipixxQrVocZalHwYqbps/n7Sg==",
+  "dgSpecHash": "hL4vJCdQ99+I5ay/tGT7k3XdYrg3oVXSVa7Ue4eDPSTlaEo+hr7AId86R9Db12Zj7VVwAP3AF6GZM9cwBywPLw==",
   "success": true,
   "projectFilePath": "/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Structs.Test/Structs.Test.csproj",
   "expectedPackageFiles": [
