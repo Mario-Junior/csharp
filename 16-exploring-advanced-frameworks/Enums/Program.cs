@@ -1,6 +1,9 @@
 ﻿Order myOrder = new();
 myOrder.PayType = PaymentType.Credit;
 
+Console.WriteLine("Crédito: " + (int)PaymentType.Credit);
+Console.WriteLine("Débito: " + (int)PaymentType.Debit);
+
 enum PaymentType
 {
   Credit = 0,

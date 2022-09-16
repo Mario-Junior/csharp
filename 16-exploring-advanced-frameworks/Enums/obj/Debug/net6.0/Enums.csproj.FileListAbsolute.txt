@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/bin/Debug/net6.0/Enums
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/bin/Debug/net6.0/Enums.deps.json
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/bin/Debug/net6.0/Enums.runtimeconfig.json
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/bin/Debug/net6.0/Enums.dll
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/bin/Debug/net6.0/Enums.pdb
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/obj/Debug/net6.0/Enums.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/obj/Debug/net6.0/Enums.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/obj/Debug/net6.0/Enums.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/obj/Debug/net6.0/Enums.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/obj/Debug/net6.0/Enums.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/obj/Debug/net6.0/Enums.dll
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/obj/Debug/net6.0/refint/Enums.dll
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/obj/Debug/net6.0/Enums.pdb
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/obj/Debug/net6.0/Enums.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/16-exploring-advanced-frameworks/Enums/obj/Debug/net6.0/ref/Enums.dll
