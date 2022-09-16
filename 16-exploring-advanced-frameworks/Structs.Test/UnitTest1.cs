@@ -2,7 +2,7 @@ namespace Structs.Test;
 
 public class UnitTest1
 {
-    [Theory(DisplayName = "Deve criar corretamnte a estrutura Point")]
+    [Theory(DisplayName = "Deve criar corretamente a estrutura Point")]
     [InlineData(10, 20)]
     public void TestCreatePoint(int xEntry, int yEntry)
     {
