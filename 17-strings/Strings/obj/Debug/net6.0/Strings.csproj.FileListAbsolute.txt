@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/17-strings/Strings/bin/Debug/net6.0/Strings
+/home/mariojunior/csharp/exercises/17-strings/Strings/bin/Debug/net6.0/Strings.deps.json
+/home/mariojunior/csharp/exercises/17-strings/Strings/bin/Debug/net6.0/Strings.runtimeconfig.json
+/home/mariojunior/csharp/exercises/17-strings/Strings/bin/Debug/net6.0/Strings.dll
+/home/mariojunior/csharp/exercises/17-strings/Strings/bin/Debug/net6.0/Strings.pdb
+/home/mariojunior/csharp/exercises/17-strings/Strings/obj/Debug/net6.0/Strings.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/17-strings/Strings/obj/Debug/net6.0/Strings.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/17-strings/Strings/obj/Debug/net6.0/Strings.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/17-strings/Strings/obj/Debug/net6.0/Strings.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/17-strings/Strings/obj/Debug/net6.0/Strings.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/17-strings/Strings/obj/Debug/net6.0/Strings.dll
+/home/mariojunior/csharp/exercises/17-strings/Strings/obj/Debug/net6.0/refint/Strings.dll
+/home/mariojunior/csharp/exercises/17-strings/Strings/obj/Debug/net6.0/Strings.pdb
+/home/mariojunior/csharp/exercises/17-strings/Strings/obj/Debug/net6.0/Strings.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/17-strings/Strings/obj/Debug/net6.0/ref/Strings.dll
