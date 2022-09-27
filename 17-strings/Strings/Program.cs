@@ -58,3 +58,9 @@ else
   Console.WriteLine("Essa linguagem não existe no sistema");
 }
 
+
+// string.Join()
+// Exemplo: criação da enumeração dos números inteiros entre 1 e 10
+IEnumerable<int> listNumbers = Enumerable.Range(1, 10);
+Console.WriteLine(listNumbers); // Saída = System.Linq.Enumerable+RangeIterator
+
