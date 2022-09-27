@@ -64,3 +64,5 @@ else
 IEnumerable<int> listNumbers = Enumerable.Range(1, 10);
 Console.WriteLine(listNumbers); // Saída = System.Linq.Enumerable+RangeIterator
 
+string numbersText = string.Join(',', listNumbers); // ',' é do tipo 'char' e só aceita UM caracter entre as ''
+Console.WriteLine(numbersText); // Saída = 1,2,3,4,5,6,7,8,9,10
