@@ -82,3 +82,16 @@ Console.WriteLine(subject);
 string text3 = "Eu aprendi a lidar com as propriedades e funções da classe String na Trybe!";
 int index = text3.IndexOf("p", 20);
 Console.WriteLine(index);  
+
+
+List<string> animals = new List<string> 
+{
+  "Cachorro",
+  "Gato",
+  "Coelho",
+  "Pato"
+};
+
+Console.WriteLine(animals.Contains("Cachorro"));
+Console.WriteLine(animals.Contains("gato"));
+Console.WriteLine(animals.Contains("Girafa"));
