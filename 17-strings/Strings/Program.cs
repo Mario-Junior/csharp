@@ -66,3 +66,15 @@ Console.WriteLine(listNumbers); // Saída = System.Linq.Enumerable+RangeIterator
 
 string numbersText = string.Join(',', listNumbers); // ',' é do tipo 'char' e só aceita UM caracter entre as ''
 Console.WriteLine(numbersText); // Saída = 1,2,3,4,5,6,7,8,9,10
+
+
+// Interpolação de strings
+string text1 = "Isso é uma string";
+
+string textString = "string";
+string text2 = $"Isso é uma {textString}";
+
+Console.WriteLine("Por favor, insira seu nome: ");
+string name = Console.ReadLine();
+string subject = $"Olá, {name}! Boas vindas ao sistema parceiro da Trybe!";
+Console.WriteLine(subject);
