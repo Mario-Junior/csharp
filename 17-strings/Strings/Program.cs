@@ -78,3 +78,7 @@ Console.WriteLine("Por favor, insira seu nome: ");
 string name = Console.ReadLine();
 string subject = $"Olá, {name}! Boas vindas ao sistema parceiro da Trybe!";
 Console.WriteLine(subject);
+
+string text3 = "Eu aprendi a lidar com as propriedades e funções da classe String na Trybe!";
+int index = text3.IndexOf("p", 20);
+Console.WriteLine(index);  
