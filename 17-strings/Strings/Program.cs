@@ -29,6 +29,32 @@ string trybeLove = "I love Trybe";
 int index3 = trybeLove.IndexOf("e", 6); // Saída: 11. Pois, começa a busca a partir do index 6 e encontra o 'e' na palavra 'Trybe'
 Console.WriteLine("O índice é: " + index3);
 
-int index4 = trybe.IndexOf("e", 13); // Saída: Exception - ArgumentOutOfRangeException.
-// Pois, o tamanho da string buscada é 12 e foi pedido para a função IndexOf() buscar um index a partir de 13; sendo assim, a exceção foi lançada.
-Console.WriteLine("O índice é: " + index4);
+// DESCOMENTAR para verificar o erro!
+// int index4 = trybe.IndexOf("e", 13); // Saída: Exception - ArgumentOutOfRangeException.
+// // Pois, o tamanho da string buscada é 12 e foi pedido para a função IndexOf() buscar um index a partir de 13; sendo assim, a exceção foi lançada.
+// Console.WriteLine("O índice é: " + index4);
+
+
+// string.Contains() => ATENÇÃO: É case sensitive!
+List<string> languages = new List<string> 
+{
+ "c#",
+ "java",
+ "javascript",
+ "python"
+};
+
+Console.WriteLine("Entre sua linguagem para busca aqui: ");
+string? languageSearch = Console.ReadLine();
+
+bool languageExists = languages.Contains(languageSearch);
+
+if (languageExists) 
+{
+  Console.WriteLine("Essa linguagem existe no sistema");
+}
+else 
+{
+  Console.WriteLine("Essa linguagem não existe no sistema");
+}
+
