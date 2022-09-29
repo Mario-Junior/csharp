@@ -27,4 +27,19 @@ public class DateHandlerTest
 
         result.Should().Be(expected);
     }
+
+    [Theory(DisplayName = "Deve adcionar o evento para o array de agenda")]
+    [InlineData(30)]
+    [InlineData(1)]
+    [InlineData(60)]
+    [InlineData(90)]
+    [InlineData(365)]
+    public void TestAddEvent(int days)
+    {
+        Schedule instance = new();
+        var expected = DateTime.Now.AddDays(days);
+        instance.nextEvents[0].Date.Should().Be(new DateTime().Date);
+        instance.AddEventAtDays(days);
+        instance.nextEvents[0].Date.Should().Be(expected.Date);
+    }
 }
