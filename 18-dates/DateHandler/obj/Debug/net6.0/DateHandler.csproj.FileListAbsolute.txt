@@ -1,0 +1,12 @@
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/bin/Debug/net6.0/DateHandler.deps.json
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/bin/Debug/net6.0/DateHandler.dll
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/bin/Debug/net6.0/DateHandler.pdb
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/obj/Debug/net6.0/DateHandler.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/obj/Debug/net6.0/DateHandler.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/obj/Debug/net6.0/DateHandler.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/obj/Debug/net6.0/DateHandler.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/obj/Debug/net6.0/DateHandler.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/obj/Debug/net6.0/DateHandler.dll
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/obj/Debug/net6.0/refint/DateHandler.dll
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/obj/Debug/net6.0/DateHandler.pdb
+/home/mariojunior/csharp/exercises/18-dates/DateHandler/obj/Debug/net6.0/ref/DateHandler.dll
