@@ -48,6 +48,9 @@
         else relationship = "è posterior à";
 
         Console.WriteLine("{0} {1} {2}", date1, relationship, date2);
+
+        // Usando o método .ToString() com 'override' (sobrecarga) = .ToString(string? format)
+        Console.WriteLine(new DateTime(2008, 6, 15, 21, 15, 07).ToString("R"));
     }
 
     public static string getTimeNow()
