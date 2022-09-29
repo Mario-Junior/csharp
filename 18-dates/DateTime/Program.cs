@@ -51,6 +51,10 @@
 
         // Usando o método .ToString() com 'override' (sobrecarga) = .ToString(string? format)
         Console.WriteLine(new DateTime(2008, 6, 15, 21, 15, 07).ToString("R"));
+
+
+        var myDate = DateTime.Now;
+        Console.WriteLine(myDate);
     }
 
     public static string getTimeNow()
