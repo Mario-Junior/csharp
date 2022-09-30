@@ -23,7 +23,7 @@ public class GenericList<T>
     }
   }
 
-  private Node Head;
+  private Node? Head;
 
   public GenericList()
   {
@@ -50,11 +50,11 @@ public class GenericList<T>
   public void Print()
   {
     Node? printNode = Head;
-    while (printNode.Next != null)
+    while (printNode?.Next != null)
     {
       Console.Write(printNode.Value + " ");
       printNode = printNode.Next;
     }
-    Console.WriteLine(printNode.Value);
+    Console.WriteLine(printNode!.Value);
   }
 }

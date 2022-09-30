@@ -13,6 +13,7 @@ public class Program
     listString.Print();
 
     // AnonymousTypes:
+    Console.WriteLine("-----------------------------------------------------------------");
     Console.WriteLine("AnonymousTypes:");
     Console.WriteLine("Exemplo: var myAnonymousType = new { Amount = 42, Message = 'Olá',  Value = 3.95};");
     var myAnonymousType = new { Amount = 42, Message = "Olá",  Value = 3.95};
