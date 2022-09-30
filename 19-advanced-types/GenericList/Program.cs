@@ -30,6 +30,18 @@ public class GenericList<T>
 
   public void Add(T input)
   {
+    if (Head == null)
+    {
+      Head = new Node(input);
+      Console.WriteLine("Nó Head criado!");
+    }
+    else
+    {
+      // Encontra onde inserir o próximo nó na lista.
+      Node lastNode = Head;
+      while (lastNode.Next != null) lastNode = lastNode.Next;
 
+      lastNode.Next = new Node(input);
+    }
   }
 }
