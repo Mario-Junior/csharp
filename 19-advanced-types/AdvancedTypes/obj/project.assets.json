@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mariojunior/csharp/exercises/19-advanced-types/AdvancedTypes/GenericList.csproj",
-      "projectName": "GenericList",
-      "projectPath": "/home/mariojunior/csharp/exercises/19-advanced-types/AdvancedTypes/GenericList.csproj",
+      "projectUniqueName": "/home/mariojunior/csharp/exercises/19-advanced-types/AdvancedTypes/AdvancedTypes.csproj",
+      "projectName": "AdvancedTypes",
+      "projectPath": "/home/mariojunior/csharp/exercises/19-advanced-types/AdvancedTypes/AdvancedTypes.csproj",
       "packagesPath": "/home/mariojunior/.nuget/packages/",
       "outputPath": "/home/mariojunior/csharp/exercises/19-advanced-types/AdvancedTypes/obj/",
       "projectStyle": "PackageReference",

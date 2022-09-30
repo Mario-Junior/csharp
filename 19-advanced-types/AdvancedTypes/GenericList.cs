@@ -7,7 +7,7 @@
 // Outro Exemplo:
 // GenericList<SomeClass> myList = new();
 
-namespace genericList;
+namespace advancedTypes;
 
 public class GenericList<T>
 {
@@ -58,5 +58,3 @@ public class GenericList<T>
     Console.WriteLine(printNode!.Value);
   }
 }
-
-public class SomeClass {} // Criada apenas para fins didáticos do teste

@@ -1,4 +1,4 @@
-namespace genericList;
+namespace advancedTypes;
 
 public static class ExtensionMethods
 {
