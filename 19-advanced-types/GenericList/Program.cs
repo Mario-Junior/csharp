@@ -1,7 +1,13 @@
-﻿GenericList myList = new();
-Console.WriteLine(myList);
+﻿GenericList<int> myList1 = new();
+Console.WriteLine(myList1);
 
-public class GenericList
+GenericList<string> myList2 = new();
+Console.WriteLine(myList2);
+
+// Outro Exemplo:
+// GenericList<SomeClass> myList = new();
+
+public class GenericList<T>
 {
 
 }
