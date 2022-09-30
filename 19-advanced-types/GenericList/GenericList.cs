@@ -6,6 +6,9 @@
 
 // Outro Exemplo:
 // GenericList<SomeClass> myList = new();
+
+namespace genericList;
+
 public class GenericList<T>
 {
   private class Node
@@ -32,7 +35,7 @@ public class GenericList<T>
     if (Head == null)
     {
       Head = new Node(input);
-      Console.WriteLine("Nó Head criado!");
+      // Console.WriteLine("Nó Head criado!");
     }
     else
     {
