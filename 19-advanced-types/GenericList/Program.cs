@@ -9,5 +9,27 @@ Console.WriteLine(myList2);
 
 public class GenericList<T>
 {
+  private class Node
+  {
+    public T Value;
+    public Node? Next;
 
+    public Node(T t)
+    {
+      Value = t;
+      Next = null;
+    }
+  }
+
+  private Node Head;
+
+  public GenericList()
+  {
+    Head = null;
+  }
+
+  public void Add(T input)
+  {
+
+  }
 }
