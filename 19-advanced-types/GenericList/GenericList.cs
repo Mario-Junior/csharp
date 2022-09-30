@@ -58,3 +58,5 @@ public class GenericList<T>
     Console.WriteLine(printNode!.Value);
   }
 }
+
+public class SomeClass {} // Criada apenas para fins didáticos do teste
