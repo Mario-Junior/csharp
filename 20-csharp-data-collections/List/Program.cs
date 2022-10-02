@@ -17,3 +17,11 @@ foreach (var item in vehicles)
 {
     Console.WriteLine("Vehicles = " + item);
 }
+
+// Sintaxe para criação de objetos do tipo lista simples (vazios):
+List<string> newList1 = new List<string>();
+Console.WriteLine(newList1);
+
+// Sintaxe com expressão new simplificada:
+List<string> newList2 = new();
+Console.WriteLine(newList2);
