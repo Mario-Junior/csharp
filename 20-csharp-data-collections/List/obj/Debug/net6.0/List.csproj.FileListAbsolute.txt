@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/bin/Debug/net6.0/List
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/bin/Debug/net6.0/List.deps.json
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/bin/Debug/net6.0/List.runtimeconfig.json
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/bin/Debug/net6.0/List.dll
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/bin/Debug/net6.0/List.pdb
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/obj/Debug/net6.0/List.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/obj/Debug/net6.0/List.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/obj/Debug/net6.0/List.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/obj/Debug/net6.0/List.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/obj/Debug/net6.0/List.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/obj/Debug/net6.0/List.dll
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/obj/Debug/net6.0/refint/List.dll
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/obj/Debug/net6.0/List.pdb
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/obj/Debug/net6.0/List.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/20-csharp-data-collections/List/obj/Debug/net6.0/ref/List.dll

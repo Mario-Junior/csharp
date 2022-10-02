@@ -7,6 +7,13 @@ List<string> stringList = new List<string>(){ "carro", "casa", "roupa", "avião"
 
 List<int> intList = new List<int>{ 1, 2, 6, 8, 10, 87, 45 };
 
-List<string> animals = new List<string>(){ "cachorro", "gato",  "pássaro", "peixe" };
+List<string> animals = new(){ "cachorro", "gato",  "pássaro", "peixe" };
 
-Console.WriteLine(animals[0]);
+Console.WriteLine("Animals [0] = " + animals[0]);
+
+List<string> vehicles = new(){ "carro", "moto", "avião" };
+
+foreach (var item in vehicles)
+{
+    Console.WriteLine("Vehicles = " + item);
+}
