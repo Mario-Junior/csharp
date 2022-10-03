@@ -26,5 +26,8 @@ public class Program
     Console.WriteLine("--------------------------------");
     Console.WriteLine("% Selecting:");
     Selecting.Words();
+    Console.WriteLine("--------------------------------");
+    Console.WriteLine("% Library:");
+    Book.BookList();
   }
 }
