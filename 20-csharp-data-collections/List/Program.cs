@@ -55,3 +55,6 @@ integers.ForEach(integer => { Console.WriteLine(integer); });
 Console.WriteLine("IndexOf example: " + integers.IndexOf(29));
 
 // .Sort() - Serve para ordenar a nossa lista.
+List<string> newAnimals = new(){ "cachorro", "baleia", "urso", "tigre" };
+newAnimals.Sort();
+newAnimals.ForEach(animal => { Console.WriteLine("Sort example: " + animal); });
