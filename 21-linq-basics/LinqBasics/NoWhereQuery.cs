@@ -13,5 +13,11 @@ public class NoWhereQuery
       select greeting;
     foreach (var item in items)
       Console.WriteLine(item);
+
+    var countItems = 
+      (from greeting in greetings
+      select greeting).Count();
+    
+    Console.WriteLine("Contagem de itens em 'greetings' = " + countItems);
   }
 }
