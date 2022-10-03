@@ -20,5 +20,8 @@ public class Program
     Console.WriteLine("--------------------------------");
     Console.WriteLine("% No WHERE query:");
     NoWhereQuery.Greetings();
+    Console.WriteLine("--------------------------------");
+    Console.WriteLine("% Fruit Basket:");
+    FruitBasket.FruitLoops();
   }
 }
