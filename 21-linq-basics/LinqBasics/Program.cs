@@ -23,5 +23,8 @@ public class Program
     Console.WriteLine("--------------------------------");
     Console.WriteLine("% Fruit Basket:");
     FruitBasket.FruitLoops();
+    Console.WriteLine("--------------------------------");
+    Console.WriteLine("% Selecting:");
+    Selecting.Words();
   }
 }
