@@ -25,3 +25,24 @@ Console.WriteLine(newList1);
 // Sintaxe com expressão new simplificada:
 List<string> newList2 = new();
 Console.WriteLine(newList2);
+
+List<string> brands = new(){ "samsung", "dell", "apple", "HP" };
+foreach (var item in brands)
+{
+    Console.WriteLine("Brands = " + item);
+}
+
+// Os métodos mais utilizados com listas são: .Add(), .Remove(), .RemoveAt(), .IndexOf() e .Sort(). Cada um deles nos ajuda a resolver alguns problemas:
+// .Add() - Serve para adicionarmos itens da lista.
+List<string> cars = new(){ "Fusca" };
+cars.ForEach(car => { Console.WriteLine(car); });
+cars.Add("Brasília");
+cars.ForEach(car => { Console.WriteLine(car); });
+
+// .Remove() - Serve para remover um item específico da lista.
+cars.Remove("Fusca");
+cars.ForEach(car => { Console.WriteLine(car); });
+
+// .RemoveAt() - Serve para removermos itens da lista segundo o índice deles.
+// .IndexOf - Nos retorna o índice de um objeto na lista.
+// .Sort() - Serve para ordenar a nossa lista.
