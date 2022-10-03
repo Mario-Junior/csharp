@@ -21,7 +21,7 @@ public class UnitTest1
     public void TestAddVehicle(List<string> vehiclesEntry, string vehicle, List<string> vehiclesExpected)
     {
         // Cria nova garagem
-        Garage instance = new();
+        var instance = new Garage();
 
         // Atribui os valores de entrada
         instance.Vehicles = vehiclesEntry;
