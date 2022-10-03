@@ -17,5 +17,8 @@ public class Program
     Console.WriteLine("--------------------------------");
     Console.WriteLine("% Linq Basic query - TopListeners:");
     Artist.TopListeners();
+    Console.WriteLine("--------------------------------");
+    Console.WriteLine("% No WHERE query:");
+    NoWhereQuery.Greetings();
   }
 }
