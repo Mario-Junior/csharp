@@ -2,7 +2,18 @@ namespace LinqBasics;
 using System;
 using System.Linq;
 
-public class LinqQueries
+// DESCOMENTE para ver os modelos de consulta Declarativas:
+// // Consulta completa:
+// IEnumerable<string> filteredGames1 = from game in games
+//                                         where game.Contains('a')
+//                                         select game;
+
+// // Consulta simplificada (usando tipos implícitos):
+// var filteredGames2 = from game in games
+//                   where game.Contains('a')
+//                   select game;
+
+public class LinqExpressions
 {
   public static void DeclarativeLinq()
   {
