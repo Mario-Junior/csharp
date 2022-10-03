@@ -58,3 +58,9 @@ Console.WriteLine("IndexOf example: " + integers.IndexOf(29));
 List<string> newAnimals = new(){ "cachorro", "baleia", "urso", "tigre" };
 newAnimals.Sort();
 newAnimals.ForEach(animal => { Console.WriteLine("Sort example: " + animal); });
+
+// Queue<T>: Representa um tipo de lista em que o primeiro item a entrar também é o primeiro item a sair da lista.
+
+// Stack<T>: Representa um tipo de lista em que o último item a entrar é o primeiro item a sair da lista.
+
+// SortedList<T>: É um tipo de coleção formado por chave/valor, sendo ordenados por chave e acessíveis por chave ou índice.
