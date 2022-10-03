@@ -50,4 +50,8 @@ cars.RemoveAt(0);
 cars.ForEach(car => { Console.WriteLine("RemoveAt example: " + car); });
 
 // .IndexOf - Nos retorna o índice de um objeto na lista.
+List<int> integers = new List<int>(){ 18, 45, 29, 99 };
+integers.ForEach(integer => { Console.WriteLine(integer); });
+Console.WriteLine("IndexOf example: " + integers.IndexOf(29));
+
 // .Sort() - Serve para ordenar a nossa lista.
