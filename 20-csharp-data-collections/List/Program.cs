@@ -37,12 +37,17 @@ foreach (var item in brands)
 List<string> cars = new(){ "Fusca" };
 cars.ForEach(car => { Console.WriteLine(car); });
 cars.Add("Brasília");
-cars.ForEach(car => { Console.WriteLine(car); });
+cars.ForEach(car => { Console.WriteLine("Add example: " + car); });
 
 // .Remove() - Serve para remover um item específico da lista.
 cars.Remove("Fusca");
-cars.ForEach(car => { Console.WriteLine(car); });
+cars.ForEach(car => { Console.WriteLine("Remove example: " + car); });
 
 // .RemoveAt() - Serve para removermos itens da lista segundo o índice deles.
+cars.Add("Fusca"); cars.Add("Ferrari"); cars.Add("Lamborghini");
+cars.ForEach(car => { Console.WriteLine(car); });
+cars.RemoveAt(0);
+cars.ForEach(car => { Console.WriteLine("RemoveAt example: " + car); });
+
 // .IndexOf - Nos retorna o índice de um objeto na lista.
 // .Sort() - Serve para ordenar a nossa lista.
