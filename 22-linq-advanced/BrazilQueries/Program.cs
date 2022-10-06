@@ -41,6 +41,23 @@ public class Program
       // Retornar apenas as cidades selecionadas
       select city;
 
+    var citiesWithState = 
+      from city in cities
+      let cityNameWithState = city.Name+"/"+city.StateAbbreviation
+      select cityNameWithState;
+
+    var citiesGroupedByState = 
+      from city in cities
+      // agrupando cidades por StateAbbreviation
+      group city by city.StateAbbreviation;
+
     foreach (var city in northEastCitiesWithB) Console.WriteLine(city.Name);
+    Console.WriteLine("----------------------------------------------------");
+    foreach (var city in citiesWithState) Console.WriteLine(city);
+    Console.WriteLine("----------------------------------------------------");
+    foreach (var state in citiesGroupedByState)
+    {
+      Console.WriteLine(state.Key + " contém " + state.Count() + " cidades.");
+    }
   }
 }

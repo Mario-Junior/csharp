@@ -12,6 +12,7 @@ public class City
       new City { Name="Belém", StateAbbreviation="PA" },
       new City { Name="Boa Viagem", StateAbbreviation="CE" },
       new City { Name="Maceió", StateAbbreviation="AL" },
+      new City { Name="Natal", StateAbbreviation="RN" },
       new City { Name="Rio Branco", StateAbbreviation="AC" },
     };
 
