@@ -54,5 +54,9 @@ public class Program
     Console.WriteLine("------------------------------------------------------------------------");
 
     Console.WriteLine("Teste de método: " + Student.GetStudentWithHighestScore().Name);
+
+    // Exemplo de caso de uso com expressão Lambda:
+    var maxScore = students.Max(student => student.Scores!.Max());
+    Console.WriteLine("Exemplo de caso de uso com expressão Lambda > " + "Maior nota entre as pessoas estudantes = " + maxScore);
   }
 }
