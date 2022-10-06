@@ -17,3 +17,11 @@ Console.WriteLine("$ Método .Count:");
 Console.WriteLine("int[] numbers.Count() = " + numbers.Count());
 Console.WriteLine("numQuery.Count() = " + numQuery.Count());
 Console.WriteLine("------------------------------------------------------------------------");
+
+// Sum():
+// Método para consultas ou coleções numéricas.
+// Retorna a soma dos elementos da consulta ou lista que implementa a Interface IEnumerable
+Console.WriteLine("$ Método .Sum:");
+Console.WriteLine("int[] numbers.Sum() = " + numbers.Sum());
+Console.WriteLine("numQuery.Sum() = " + numQuery.Sum());
+Console.WriteLine("------------------------------------------------------------------------");
