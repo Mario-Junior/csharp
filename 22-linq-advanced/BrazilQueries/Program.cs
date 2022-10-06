@@ -25,6 +25,7 @@ public class Program
     //   where city.Name.StartsWith("B")
     //   select city;
 
+// Múltiplas consultas com LINQ
     var northEastCitiesWithB = 
       // Selecionar todos os estados da região nordeste
       from state in states
@@ -40,24 +41,37 @@ public class Program
 
       // Retornar apenas as cidades selecionadas
       select city;
+    
+    foreach (var city in northEastCitiesWithB) Console.WriteLine(city.Name);
+    Console.WriteLine("----------------------------------------------------");
 
+// Cláusulas de uso mais ocasional do LINQ
+  // let
     var citiesWithState = 
       from city in cities
       let cityNameWithState = city.Name+"/"+city.StateAbbreviation
       select cityNameWithState;
 
+    foreach (var city in citiesWithState) Console.WriteLine(city);
+    Console.WriteLine("----------------------------------------------------");
+
+  // group
     var citiesGroupedByState = 
       from city in cities
       // agrupando cidades por StateAbbreviation
       group city by city.StateAbbreviation;
-
-    foreach (var city in northEastCitiesWithB) Console.WriteLine(city.Name);
-    Console.WriteLine("----------------------------------------------------");
-    foreach (var city in citiesWithState) Console.WriteLine(city);
-    Console.WriteLine("----------------------------------------------------");
+    
     foreach (var state in citiesGroupedByState)
     {
       Console.WriteLine(state.Key + " contém " + state.Count() + " cidades.");
     }
+    Console.WriteLine("----------------------------------------------------");
+
+  // group > into
+    var citiesGroupedByStateInto = 
+      from city in cities
+      group city by city.StateAbbreviation into stateGroup
+      where stateGroup.Count() > 1
+      select new { State = stateGroup.Key, Count = stateGroup.Count() };
   }
 }
