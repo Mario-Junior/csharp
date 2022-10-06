@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/bin/Debug/net6.0/Numbers
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/bin/Debug/net6.0/Numbers.deps.json
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/bin/Debug/net6.0/Numbers.runtimeconfig.json
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/bin/Debug/net6.0/Numbers.dll
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/bin/Debug/net6.0/Numbers.pdb
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/obj/Debug/net6.0/Numbers.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/obj/Debug/net6.0/Numbers.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/obj/Debug/net6.0/Numbers.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/obj/Debug/net6.0/Numbers.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/obj/Debug/net6.0/Numbers.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/obj/Debug/net6.0/Numbers.dll
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/obj/Debug/net6.0/refint/Numbers.dll
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/obj/Debug/net6.0/Numbers.pdb
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/obj/Debug/net6.0/Numbers.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/22-linq-advanced/Numbers/obj/Debug/net6.0/ref/Numbers.dll
