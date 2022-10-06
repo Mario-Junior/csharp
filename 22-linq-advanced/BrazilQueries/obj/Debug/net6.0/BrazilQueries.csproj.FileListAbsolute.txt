@@ -1,0 +1,15 @@
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/bin/Debug/net6.0/BrazilQueries
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/bin/Debug/net6.0/BrazilQueries.deps.json
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/bin/Debug/net6.0/BrazilQueries.runtimeconfig.json
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/bin/Debug/net6.0/BrazilQueries.dll
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/bin/Debug/net6.0/BrazilQueries.pdb
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/obj/Debug/net6.0/BrazilQueries.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/obj/Debug/net6.0/BrazilQueries.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/obj/Debug/net6.0/BrazilQueries.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/obj/Debug/net6.0/BrazilQueries.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/obj/Debug/net6.0/BrazilQueries.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/obj/Debug/net6.0/BrazilQueries.dll
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/obj/Debug/net6.0/refint/BrazilQueries.dll
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/obj/Debug/net6.0/BrazilQueries.pdb
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/obj/Debug/net6.0/BrazilQueries.genruntimeconfig.cache
+/home/mariojunior/csharp/exercises/22-linq-advanced/BrazilQueries/obj/Debug/net6.0/ref/BrazilQueries.dll

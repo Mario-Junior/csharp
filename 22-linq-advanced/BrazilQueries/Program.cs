@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace BrazilQueries;
+
+public class Program
+{
+  public static void Main()
+  {
+    State[] states = State.CreateStates();
+    foreach (var state in states)
+    {
+      Console.WriteLine(state.Name);
+    }
+  }
+}
