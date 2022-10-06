@@ -9,14 +9,14 @@ public class Student
   public static Student[] CreateStudents()
   {
     Student[] students = {
-      new Student { Name="José", Scores=new int[3] { 60, 90, 100 } },
+      new Student { Name="José", Scores=new int[3] { 60, 90, 95 } },
       new Student { Name="Maria", Scores=new int[3] { 100, 90, 80 } },
     };
 
     return students;
   }
 
-  public Student GetStudentWithHighestScore()
+  public static Student GetStudentWithHighestScore()
   {
     var studentWithLowestScore =
       from student in CreateStudents()
@@ -26,7 +26,7 @@ public class Student
     return studentWithLowestScore.First();
   }
 
-  public Student GetStudentWithLowestScore()
+  public static Student GetStudentWithLowestScore()
   {
     var studentWithLowestScore =
       from student in CreateStudents()

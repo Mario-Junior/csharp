@@ -51,5 +51,8 @@ public class Program
     {
       Console.WriteLine("Nome: " + student.Name + " | " + "Menor nota: " + student.Scores!.Min());
     }
+    Console.WriteLine("------------------------------------------------------------------------");
+
+    Console.WriteLine("Teste de método: " + Student.GetStudentWithHighestScore().Name);
   }
 }
