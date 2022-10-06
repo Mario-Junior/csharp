@@ -73,5 +73,31 @@ public class Program
       group city by city.StateAbbreviation into stateGroup
       where stateGroup.Count() > 1
       select new { State = stateGroup.Key, Count = stateGroup.Count() };
+
+    foreach (var state in citiesGroupedByStateInto) Console.WriteLine(state);
+    Console.WriteLine("----------------------------------------------------");
+
+  // join
+    var citiesGroupedByStateJoin = 
+      from city in cities
+      join state in states on city.StateAbbreviation equals state.Abbreviation
+      group city by new { state.Name, state.Abbreviation } into stateGroup
+      where stateGroup.Count() > 1
+      select new { State = stateGroup.Key, Count = stateGroup.Count() };
+
+    foreach (var state in citiesGroupedByStateJoin) Console.WriteLine(state);
+    Console.WriteLine("----------------------------------------------------");
+
+  // orderBy
+    var citiesGroupedByStateOrderBy = 
+      from city in cities
+      join state in states on city.StateAbbreviation equals state.Abbreviation
+      group city by new { state.Name, state.Abbreviation } into stateGroup
+      where stateGroup.Count() >= 1
+      orderby stateGroup.Key.Name ascending // Resultados serão ordenados pelo nome do estado em ordem crescente
+      select new { State = stateGroup.Key, Count = stateGroup.Count() };
+
+    foreach (var state in citiesGroupedByStateOrderBy) Console.WriteLine(state);
+    Console.WriteLine("----------------------------------------------------");
   }
 }
