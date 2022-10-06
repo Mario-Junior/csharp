@@ -6,21 +6,24 @@ public class Program
 {
   public static void Main()
   {
-    // State[] states = State.CreateStates();
-    // City[] cities = City.CreateCities();
+    State[] states = State.CreateStates();
+    City[] cities = City.CreateCities();
 
-    State[] states = {
-        new State { Name="Acre", Abbreviation="AC", Region="Norte" },
-        new State { Name="Alagoas", Abbreviation="AL", Region="Nordeste" },
-        new State { Name="Pará", Abbreviation="PA", Region="Norte" },
-        new State { Name="Paraíba", Abbreviation="PB", Region="Nordeste" },
-    };
-    
-    City[] cities = {
-      new City { Name="Belém", StateAbbreviation="PA" },
-      new City { Name="Rio Branco", StateAbbreviation="AC" },
-      new City { Name="Maceió", StateAbbreviation="AL" },
-    };
+// DESCOMENTAR E ENTENDER PORQUE NÃO FUNCIONA!!!
+    // var northEastStates = 
+    //   from state in states
+    //   where state.Region == "Nordeste"
+    //   select state;
+
+    // var northEastCities = 
+    //   from city in cities
+    //   where northEastStates.Contains(city.StateAbbreviation) // ENTENDER porque não funciona!!!
+    //   select city;
+
+    // var northEastCitiesWithB = 
+    //   from city in northEastCities
+    //   where city.Name.StartsWith("B")
+    //   select city;
 
     var northEastCitiesWithB = 
       // Selecionar todos os estados da região nordeste
@@ -37,5 +40,7 @@ public class Program
 
       // Retornar apenas as cidades selecionadas
       select city;
+
+    foreach (var city in northEastCitiesWithB) Console.WriteLine(city.Name);
   }
 }
