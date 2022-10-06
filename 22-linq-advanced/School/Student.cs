@@ -9,8 +9,8 @@ public class Student
   public static Student[] CreateStudents()
   {
     Student[] students = {
-      new Student { Name="José", Scores=new int[3] { 100, 90, 80 } },
-      new Student { Name="Maria", Scores=new int[3] { 60, 90, 100 } },
+      new Student { Name="José", Scores=new int[3] { 60, 90, 100 } },
+      new Student { Name="Maria", Scores=new int[3] { 100, 90, 80 } },
     };
 
     return students;
