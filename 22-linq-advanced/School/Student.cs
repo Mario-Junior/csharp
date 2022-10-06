@@ -5,6 +5,7 @@ public class Student
   public string? Name { get; set; }
   public int[]? Scores;
 
+
   public static Student[] CreateStudents()
   {
     Student[] students = {
@@ -13,5 +14,25 @@ public class Student
     };
 
     return students;
+  }
+
+  public Student GetStudentWithHighestScore()
+  {
+    var studentWithLowestScore =
+      from student in CreateStudents()
+      orderby student.Scores!.Max() descending
+      select student;
+
+    return studentWithLowestScore.First();
+  }
+
+  public Student GetStudentWithLowestScore()
+  {
+    var studentWithLowestScore =
+      from student in CreateStudents()
+      orderby student.Scores!.Min()
+      select student;
+
+    return studentWithLowestScore.First();
   }
 }
