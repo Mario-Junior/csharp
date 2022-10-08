@@ -11,6 +11,8 @@ class Program
         stopWatch.Stop();
         // Get the elapsed time as a TimeSpan value.
         TimeSpan ts = stopWatch.Elapsed;
+        long mili = stopWatch.ElapsedMilliseconds;
+        Console.WriteLine(mili);
 
         // Format and display the TimeSpan value.
         string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
