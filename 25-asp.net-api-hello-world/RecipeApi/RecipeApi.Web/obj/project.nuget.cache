@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "iNAJBzWBu2yjQA2WXCtvpxGHsMcDSt8nUIhlyCTEqkO9ciVw3x+c04mMNXb9jHHud6LQmy90hHguZJmhK92XyQ==",
+  "dgSpecHash": "/rprATDAQ0vjj43u2gxG3dEIYvyEOe2RIQ3auRI/gxyPjD7HkY64tUwzlZOkVxhvQWYMvrTxwLuEI9vtI1zB8g==",
   "success": true,
   "projectFilePath": "/home/mariojunior/csharp/exercises/25-asp.net-api-hello-world/RecipeApi/RecipeApi.Web/RecipeApi.Web.csproj",
   "expectedPackageFiles": [
+    "/home/mariojunior/.nuget/packages/jsonflatfiledatastore/2.3.0/jsonflatfiledatastore.2.3.0.nupkg.sha512",
+    "/home/mariojunior/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/mariojunior/.nuget/packages/newtonsoft.json/12.0.1/newtonsoft.json.12.0.1.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

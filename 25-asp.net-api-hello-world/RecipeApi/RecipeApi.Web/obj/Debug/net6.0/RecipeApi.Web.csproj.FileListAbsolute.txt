@@ -1,0 +1,7 @@
+/home/mariojunior/csharp/exercises/25-asp.net-api-hello-world/RecipeApi/RecipeApi.Web/obj/Debug/net6.0/RecipeApi.Web.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/25-asp.net-api-hello-world/RecipeApi/RecipeApi.Web/obj/Debug/net6.0/RecipeApi.Web.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/25-asp.net-api-hello-world/RecipeApi/RecipeApi.Web/obj/Debug/net6.0/RecipeApi.Web.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/25-asp.net-api-hello-world/RecipeApi/RecipeApi.Web/obj/Debug/net6.0/RecipeApi.Web.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/25-asp.net-api-hello-world/RecipeApi/RecipeApi.Web/obj/Debug/net6.0/RecipeApi.Web.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/25-asp.net-api-hello-world/RecipeApi/RecipeApi.Web/obj/Debug/net6.0/RecipeApi.Web.MvcApplicationPartsAssemblyInfo.cs
+/home/mariojunior/csharp/exercises/25-asp.net-api-hello-world/RecipeApi/RecipeApi.Web/obj/Debug/net6.0/RecipeApi.Web.MvcApplicationPartsAssemblyInfo.cache
