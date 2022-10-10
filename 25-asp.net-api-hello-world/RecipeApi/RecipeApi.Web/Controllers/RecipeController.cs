@@ -58,9 +58,20 @@ public class RecipeController : ControllerBase
         });
 
         if (!didUpdate)
-            return NotFound("Recipe not fount!");
+            return NotFound("Recipe not found!");
 
         return Ok($"Recipe {id} updated!");
+    }
+
+    [HttpDelete("{id}")]
+    public ActionResult Delete(int id)
+    {
+        var didDelete = GetCollection().DeleteOne(id);
+
+        if (!didDelete)
+            return NotFound("Recipe not found!");
+
+        return NoContent();
     }
 
     private IDocumentCollection<Recipe> GetCollection() =>
