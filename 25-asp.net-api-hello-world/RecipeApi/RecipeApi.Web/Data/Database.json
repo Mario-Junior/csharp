@@ -1,0 +1,28 @@
+{
+  "recipe": [
+    {
+      "id": 2,
+      "name": "PFão",
+      "ingredients": [
+        {
+          "name": "Arroz",
+          "amount": 200,
+          "unit": "gramas"
+        },
+        {
+          "name": "Feijão",
+          "amount": 100,
+          "unit": "gramas"
+        },
+        {
+          "name": "Ovo",
+          "amount": 3,
+          "unit": "unidades"
+        }
+      ],
+      "description": "Rango muito bom",
+      "createdAt": "2022-10-09T21:07:10.5884042-03:00",
+      "updatedAt": "2022-10-09T21:07:10.588405-03:00"
+    }
+  ]
+}
