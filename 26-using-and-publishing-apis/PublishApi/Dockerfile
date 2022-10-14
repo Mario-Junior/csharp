@@ -13,5 +13,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
 # Copiando da pasta /app/out de build-env para a pasta atual dessa imagem
 COPY --from=build-env /app/out .
+
 # Executando a aplicação
-ENTRYPOINT ["dotnet", "PublishApi.dll"]
+# ENTRYPOINT ["dotnet", "PublishApi.dll"]
+CMD ASPNETCORE_URLS="http://*$PORT" dotnet PublishApi.dll
