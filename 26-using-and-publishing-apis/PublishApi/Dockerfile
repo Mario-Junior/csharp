@@ -15,5 +15,5 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 
 # Executando a aplicação
-# ENTRYPOINT ["dotnet", "PublishApi.dll"]
-CMD ASPNETCORE_URLS="http://*$PORT" dotnet PublishApi.dll
+ENTRYPOINT ["dotnet", "PublishApi.dll"]
+# CMD ASPNETCORE_URLS="http://*$PORT" dotnet PublishApi.dll
