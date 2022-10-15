@@ -1,4 +1,6 @@
 using Microsoft.OpenApi.Models;
+using System.Reflection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,6 +11,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo { Title = "Trybe API", Description = "Essa é uma descrição bem legal!", Version = "v1" });
+    string file = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    string path = Path.Combine(AppContext.BaseDirectory, file);
+    options.IncludeXmlComments(path);
 });
 
 var app = builder.Build();
