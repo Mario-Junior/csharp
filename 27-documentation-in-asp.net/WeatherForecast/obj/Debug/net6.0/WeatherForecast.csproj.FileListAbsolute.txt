@@ -25,3 +25,5 @@
 /home/mariojunior/csharp/exercises/27-documentation-in-asp.net/WeatherForecast/obj/Debug/net6.0/WeatherForecast.pdb
 /home/mariojunior/csharp/exercises/27-documentation-in-asp.net/WeatherForecast/obj/Debug/net6.0/WeatherForecast.genruntimeconfig.cache
 /home/mariojunior/csharp/exercises/27-documentation-in-asp.net/WeatherForecast/obj/Debug/net6.0/ref/WeatherForecast.dll
+/home/mariojunior/csharp/exercises/27-documentation-in-asp.net/WeatherForecast/bin/Debug/net6.0/WeatherForecast.xml
+/home/mariojunior/csharp/exercises/27-documentation-in-asp.net/WeatherForecast/obj/Debug/net6.0/WeatherForecast.xml
