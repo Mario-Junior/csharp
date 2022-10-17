@@ -1,11 +1,14 @@
-using Microsoft.AspNetCore.Mvc.Testing;
-using System;
-using System.Threading.Tasks;
-
 namespace App.Test;
 
-public class UnitTest1
+public class TestWeatherForecast : IClassFixture<WebApplicationFactory<Program>>
 {
+    private readonly WebApplicationFactory<Program> _factory;
+
+    public TestWeatherForecast(WebApplicationFactory<Program> factory)
+    {
+        _factory = factory;
+    }
+    
     [Fact]
     public void Test1()
     {
