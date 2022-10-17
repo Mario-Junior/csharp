@@ -9,7 +9,7 @@ public class TestWeatherForecast : IClassFixture<WebApplicationFactory<Program>>
         _factory = factory;
     }
 
-    [Theory(DisplayName = "WeatherForecast deve responder com status 200 ~ 299 para rotas")]    
+    [Theory(DisplayName = "WeatherForecast deve responder com status 200 ~ 299 para rotas")]
     [InlineData("/")]
     public async Task GetInitialEndpointReturnSuccess(string url)
     {        
@@ -20,7 +20,18 @@ public class TestWeatherForecast : IClassFixture<WebApplicationFactory<Program>>
         response.Content.Headers.ContentType!.ToString().Should().Be("text/plain; charset=utf-8");
     }
 
-    [Theory(DisplayName = "WeatherForecast deve responder com status 200 ~ 299 para rotas")]    
+    [Theory(DisplayName = "WeatherForecast deve responder com a mensagem inicial")]
+    [InlineData("/")]
+    public async Task GetInitialEndpointReturnContent(string url)
+    {        
+        var client = _factory.CreateClient();
+        var response = await client.GetAsync(url);
+
+        response.Content.ReadAsStringAsync().Result.Should().Be(
+            "Bem-vindo ao Weather Forecast\nUse /weatherforecast para obter a previsão dos próximos dias.");
+    }
+
+    [Theory(DisplayName = "WeatherForecast deve responder com status 200 ~ 299 para rotas")]
     [InlineData("/weatherforecast")]
     public async Task GetEndpointsReturnSuccess(string url)
     {        
