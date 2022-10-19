@@ -1,0 +1,12 @@
+version: '3.6'
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    user: root
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=123@SQLServer
+    volumes:
+      - ./data:/var/opt/mssql/data
