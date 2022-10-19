@@ -1,7 +1,7 @@
 version: '3.6'
 services:
   mssql:
-    image: mcr.microsoft.com/mssql/server:2019-latest
+    image: mcr.microsoft.com/mssql/server:2022-latest
     user: root
     ports:
       - 1433:1433
@@ -9,4 +9,4 @@ services:
       - ACCEPT_EULA=Y
       - SA_PASSWORD=123@SQLServer
     volumes:
-      - ./data:/var/opt/mssql/data
+      - /home/mariojunior/csharp/mssql/data:/var/opt/mssql/data
