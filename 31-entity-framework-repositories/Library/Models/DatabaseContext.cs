@@ -33,11 +33,11 @@ public class DatabaseContext : DbContext
     );
 
     modelBuilder.Entity<Author>().HasData(
-      new Author() { AuthorId = 2, Name = "Nome de teste" }
+      new Author() { AuthorId = 1, Name = "Nome de teste" }
     );
 
     modelBuilder.Entity<Publisher>().HasData(
-      new Publisher() { PublisherId = 2, Name = "Nome de teste" }
+      new Publisher() { PublisherId = 1, Name = "Nome de teste" }
     );
   }
 }

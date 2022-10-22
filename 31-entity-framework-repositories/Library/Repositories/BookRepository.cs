@@ -22,8 +22,6 @@ public class BookRepository
 
   public Book Insert(Book book)
   {
-    var bookExists = GetById(book.BookId);
-    if (bookExists == null)
     _context.Add(book);
     _context.SaveChanges();
     return book;
