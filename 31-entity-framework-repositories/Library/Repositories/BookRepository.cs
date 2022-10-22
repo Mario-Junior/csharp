@@ -26,4 +26,10 @@ public class BookRepository
     _context.SaveChanges();
     return book;
   }
+
+  public virtual void Update(Book book)
+  {
+    _context.Update(book);
+    _context.SaveChanges();
+  }
 }
