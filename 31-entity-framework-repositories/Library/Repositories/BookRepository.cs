@@ -12,8 +12,11 @@ public class BookRepository
 
   public List<Book> GetBookList()
   {
-    var query = _context.Books.ToList();
+    return _context.Books.ToList();
+  }
 
-    return query;
+  public Book GetById(int id)
+  {
+    return _context.Books.Where(e => e.BookId == id).Include(e => e.Author).Include(e => e.Publisher).First();
   }
 }
