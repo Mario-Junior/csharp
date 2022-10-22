@@ -26,5 +26,11 @@ public class DatabaseContext : DbContext
       .HasOne(b => b.Publisher)// Explicita que a entidade Book tem uma referência a Publisher
       .WithMany(p => p.Books) // Define a relação como um Publisher para muitos Book
       .HasForeignKey(b => b.PublisherId); // Define como chave estrangeira a variável PublisherId
+
+    modelBuilder.Entity<Book>().HasData(
+      new Book() { BookId = 1, Title = "The Hobbit", Pages = 550, Year = 2011 },
+      new Book() { BookId = 2, Title = "Brave new World", Pages = 325, Year = 1932 },
+      new Book() { BookId = 3, Title = "The Divine Comedy", Pages = 811, Year = 2013 }
+    );
   }
 }

@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Library;
+
+class Program
+{
+  static void Main()
+  {
+    using (var db = new DatabaseContext())
+    {
+      db.Database.EnsureCreated();
+    }
+  }
+}
