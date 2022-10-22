@@ -29,12 +29,15 @@ public class DatabaseContext : DbContext
 
     modelBuilder.Entity<Book>().HasData(
       new Book() { BookId = 1, Title = "The Hobbit", Pages = 550, Year = 2011 },
-      new Book() { BookId = 2, Title = "Brave new World", Pages = 325, Year = 1932 },
-      new Book() { BookId = 3, Title = "The Divine Comedy", Pages = 811, Year = 2013, AuthorId = 1 }
+      new Book() { BookId = 2, Title = "Brave new World", Pages = 325, Year = 1932 }
     );
 
     modelBuilder.Entity<Author>().HasData(
-      new Author() { AuthorId = 1, Name = "Dante Alighieri" }
+      new Author() { AuthorId = 2, Name = "Nome de teste" }
+    );
+
+    modelBuilder.Entity<Publisher>().HasData(
+      new Publisher() { PublisherId = 2, Name = "Nome de teste" }
     );
   }
 }

@@ -19,4 +19,13 @@ public class BookRepository
   {
     return _context.Books.Where(e => e.BookId == id).Include(e => e.Author).Include(e => e.Publisher).First();
   }
+
+  public Book Insert(Book book)
+  {
+    var bookExists = GetById(book.BookId);
+    if (bookExists == null)
+    _context.Add(book);
+    _context.SaveChanges();
+    return book;
+  }
 }

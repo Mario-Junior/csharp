@@ -9,5 +9,5 @@ public class Publisher
     public int PublisherId { get; set; }
     public string Name { get; set; }
     [InverseProperty("Publisher")]
-    public ICollection<Book> Books { get; set; }
+    public ICollection<Book>? Books { get; set; }
 }
