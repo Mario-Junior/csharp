@@ -10,6 +10,11 @@ public class DatabaseContext : DbContext
   // public DbSet<Publisher> Publisher { get; set; }
 
   // public DbSet<Author> Author { get; set; }
+
+  // public DatabaseContext(DbContextOptions<DatabaseContext> options)
+  //       : base(options)
+  // {
+  // }
   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
   {
     optionsBuilder.UseSqlServer(@"Server=127.0.0.1;Database=library;User=SA;Password=123@SQLServer");
