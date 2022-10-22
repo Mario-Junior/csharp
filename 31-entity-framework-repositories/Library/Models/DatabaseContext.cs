@@ -12,7 +12,7 @@ public class DatabaseContext : DbContext
   // public DbSet<Author> Author { get; set; }
   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
   {
-    optionsBuilder.UseSqlServer(@"Server=127.0.0.1;Database=master;User=SA;Password=123@SQLServer");
+    optionsBuilder.UseSqlServer(@"Server=127.0.0.1;Database=library;User=SA;Password=123@SQLServer");
   }
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)
