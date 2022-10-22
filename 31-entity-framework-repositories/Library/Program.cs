@@ -36,5 +36,21 @@ class Program
     var bookById = bookRepository.GetById(3);
     Console.WriteLine(
         $"Id: {bookById.BookId} - Title: {bookById.Title} - Author: {bookById.Author?.Name} - Publisher: {bookById.Publisher?.Name}");
+
+    var bookToUpdate = bookRepository.GetById(3);
+    bookToUpdate.Publisher!.Name = "Publisky";
+    bookRepository.Update(bookToUpdate);
+
+    Console.WriteLine(
+        $"Id: {bookById.BookId} - Title: {bookById.Title} - Author: {bookById.Author?.Name} - Publisher: {bookById.Publisher?.Name}");
+
+    bookRepository.Delete(3);
+
+    var booksUpdated = bookRepository.GetBookList();
+    foreach (var book in booksUpdated)
+    {
+      Console.WriteLine(
+        $"Id: {book.BookId} - Title: {book.Title} - Pages: {book.Pages} - Year: {book.Year}");
+    }    
   }
 }
