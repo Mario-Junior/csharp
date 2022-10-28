@@ -18,6 +18,7 @@ public class ProductController : ControllerBase
     {
         return Enumerable.Range(1, 5).Select(index => new Product
         {
+            ProductId = index,
             Name = "Teste",
             Description = "Descrição",
             Price = 10.50M,
