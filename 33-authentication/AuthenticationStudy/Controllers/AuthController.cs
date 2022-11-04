@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using Auth.Models;
 using Auth.Repositories;
 using Auth.Services;
@@ -35,5 +36,13 @@ public class AuthController : ControllerBase
         return BadRequest(ex.Message);
     }
     return userViewModel;
+    }
+
+    [HttpGet]
+    [Route("private")]
+    [Authorize]
+    public string Get()
+    {
+        return "Se você está vendo essa frase, você possui autorização";
     }
 }
