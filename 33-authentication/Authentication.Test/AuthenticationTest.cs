@@ -7,8 +7,8 @@ namespace Authentication.Test;
 public class UnitTest1
 {
     [Theory]
-    [InlineData("Luiz", "Trybes2")]
-    [InlineData("Mayara", "Trybe123")]
+    [InlineData("Testador1", "123,456")]
+    [InlineData("Testador2", "123,456")]
     public void TestAuthenticateSuccess(string name, string password)
     {
         User user = new() 
