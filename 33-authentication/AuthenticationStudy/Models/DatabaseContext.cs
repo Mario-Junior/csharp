@@ -15,4 +15,12 @@ public class DatabaseContext : DbContext
       optionsBuilder.UseSqlServer(@"Server=127.0.0.1;Database=video-portal;User=SA;Password=123@SQLServer");
     }
   }
+
+  protected override void OnModelCreating(ModelBuilder modelBuilder)
+  {
+    modelBuilder.Entity<User>().HasData(
+      new User() { Name = "Testador1", Password = "123,456" },
+      new User() { Name = "Testador2", Password = "123,456" }
+    );
+  }
 }
