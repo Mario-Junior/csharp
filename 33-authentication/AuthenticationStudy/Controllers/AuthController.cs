@@ -6,8 +6,8 @@ using Auth.ViewModels;
 
 namespace Auth.Controllers;
 
+[Route("/api")]
 [ApiController]
-[Route("[/api]")]
 public class AuthController : ControllerBase
 {
     [HttpPost]
@@ -19,7 +19,7 @@ public class AuthController : ControllerBase
     {
         userViewModel.User = new UserRepository(
             new DatabaseContext()
-        ).Get(user.Name);
+        ).Get(user);
 
         if (userViewModel.User == null)
         {

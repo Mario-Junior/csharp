@@ -12,8 +12,10 @@ public class UserRepository
     _context = context;
   }
 
-  public User Get(string name)
+  public User Get(User user)
   {
-    return _context.Users.Where(u => u.Name == name).FirstOrDefault()!;
+    return _context.Users.Where(
+      u => u.Name == user.Name && u.Password == user.Password)
+      .FirstOrDefault()!;
   }
 }
