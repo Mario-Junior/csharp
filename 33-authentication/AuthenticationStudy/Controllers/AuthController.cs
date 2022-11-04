@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Auth.Constants;
 using Auth.Models;
+using Auth.Repositories;
 using Auth.Services;
 using Auth.ViewModels;
 
@@ -17,7 +17,9 @@ public class AuthController : ControllerBase
     UserViewModel userViewModel = new();
     try
     {
-        userViewModel.User = new UserRepository().Get(user);
+        userViewModel.User = new UserRepository(
+            new DatabaseContext()
+        ).Get(user.Name);
 
         if (userViewModel.User == null)
         {
