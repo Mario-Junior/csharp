@@ -12,7 +12,6 @@ namespace Auth.Controllers;
 public class AuthController : ControllerBase
 {
     [HttpPost]
-
     public ActionResult<UserViewModel> Authenticate([FromBody] User user)
     {
     UserViewModel userViewModel = new();
