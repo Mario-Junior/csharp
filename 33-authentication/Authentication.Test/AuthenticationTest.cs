@@ -11,22 +11,26 @@ using Newtonsoft.Json;
 
 namespace Authentication.Test;
 
-public class UnitTest1
+public class UnitTest1 : IClassFixture<WebApplication<Program>>
 {
+    private readonly HttpClient _client;
+
+    public UnitTest1(WebApplication<Program> factory)
+    {
+        _client = factory.CreateClient();
+    }
 
     private async Task<HttpResponseMessage> AuthenticateRequest(User user)
     {
         var json = JsonConvert.SerializeObject(user);
         var body = new StringContent(json, Encoding.UTF8, "application/json");                
-        var client = new WebApplicationFactory<User>().CreateClient();
-        return await client.PostAsync("/api/authenticate", body);
+        return await _client.PostAsync("/api", body);
     }
 
     private async Task<HttpResponseMessage> PrivateRequest(string token) 
     {
-        var client = new WebApplicationFactory<User>().CreateClient();
-        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-        return await client.GetAsync("/api/private");
+        _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+        return await _client.GetAsync("/api/private");
     }
 
     [Theory]
@@ -84,7 +88,7 @@ public class UnitTest1
         {
             Name = name,
             Password = password
-        };    
+        }; 
 
         var responseAuthenticate = await AuthenticateRequest(user);
         var authString = await responseAuthenticate.Content.ReadAsStringAsync();
