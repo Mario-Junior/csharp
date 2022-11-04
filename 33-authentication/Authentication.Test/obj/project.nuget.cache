@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h9gZnxbWK5GUo7OSf5NYGmJH1ppwEDIDTh8Cc73S4ubO0raj7xcWAqTKSwcc02qkBe8w6kXUg4bnYq2Q+A3/iw==",
+  "dgSpecHash": "JDsOpWRN4S5wpa25BKYP6OkRDKhtq+VMJBpo3xznqnKnGPPp1zphkxsEVdfxSABMpj3JWhIH93JT7y3+1rIh1Q==",
   "success": true,
   "projectFilePath": "/home/mariojunior/csharp/exercises/33-authentication/Authentication.Test/Authentication.Test.csproj",
   "expectedPackageFiles": [
@@ -48,6 +48,7 @@
     "/home/mariojunior/.nuget/packages/microsoft.aspnetcore.responsecaching.abstractions/2.2.0/microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/microsoft.aspnetcore.routing/2.2.0/microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/microsoft.aspnetcore.routing.abstractions/2.2.0/microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
+    "/home/mariojunior/.nuget/packages/microsoft.aspnetcore.testhost/6.0.10/microsoft.aspnetcore.testhost.6.0.10.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/microsoft.aspnetcore.webutilities/2.2.0/microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/microsoft.codeanalysis.analyzers/1.1.0/microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/microsoft.codeanalysis.common/2.8.0/microsoft.codeanalysis.common.2.8.0.nupkg.sha512",
@@ -148,6 +149,7 @@
     "/home/mariojunior/.nuget/packages/system.io.compression.zipfile/4.3.0/system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.io.filesystem/4.3.0/system.io.filesystem.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.io.filesystem.primitives/4.3.0/system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "/home/mariojunior/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.linq/4.3.0/system.linq.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.linq.expressions/4.3.0/system.linq.expressions.4.3.0.nupkg.sha512",
     "/home/mariojunior/.nuget/packages/system.net.http/4.3.0/system.net.http.4.3.0.nupkg.sha512",
