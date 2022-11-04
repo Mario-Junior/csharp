@@ -1,0 +1,7 @@
+/home/mariojunior/csharp/exercises/33-authentication/AuthenticationStudy/obj/Debug/net6.0/AuthenticationStudy.csproj.AssemblyReference.cache
+/home/mariojunior/csharp/exercises/33-authentication/AuthenticationStudy/obj/Debug/net6.0/AuthenticationStudy.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariojunior/csharp/exercises/33-authentication/AuthenticationStudy/obj/Debug/net6.0/AuthenticationStudy.AssemblyInfoInputs.cache
+/home/mariojunior/csharp/exercises/33-authentication/AuthenticationStudy/obj/Debug/net6.0/AuthenticationStudy.AssemblyInfo.cs
+/home/mariojunior/csharp/exercises/33-authentication/AuthenticationStudy/obj/Debug/net6.0/AuthenticationStudy.csproj.CoreCompileInputs.cache
+/home/mariojunior/csharp/exercises/33-authentication/AuthenticationStudy/obj/Debug/net6.0/AuthenticationStudy.MvcApplicationPartsAssemblyInfo.cs
+/home/mariojunior/csharp/exercises/33-authentication/AuthenticationStudy/obj/Debug/net6.0/AuthenticationStudy.MvcApplicationPartsAssemblyInfo.cache

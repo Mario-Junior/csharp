@@ -1,32 +1,37 @@
 using Microsoft.AspNetCore.Mvc;
+using Auth.Constants;
+using Auth.Models;
+using Auth.Services;
+using Auth.ViewModels;
 
-namespace AuthenticationStudy.Controllers;
+namespace Auth.Controllers;
 
 [ApiController]
-[Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+[Route("[/api]")]
+public class AuthController : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
-    {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+    [HttpPost]
 
-    private readonly ILogger<WeatherForecastController> _logger;
-
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public ActionResult<UserViewModel> Authenticate([FromBody] User user)
     {
-        _logger = logger;
-    }
-
-    [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<WeatherForecast> Get()
+    UserViewModel userViewModel = new();
+    try
     {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        userViewModel.User = new UserRepository().Get(user);
+
+        if (userViewModel.User == null)
         {
-            Date = DateTime.Now.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        })
-        .ToArray();
+        return NotFound("User not found!");
+        }
+
+        userViewModel.Token = new TokenGenerator().Generate();
+
+        userViewModel.User.Password = string.Empty;
+    } 
+    catch (Exception ex)
+    {
+        return BadRequest(ex.Message);
+    }
+    return userViewModel;
     }
 }
