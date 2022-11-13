@@ -4,6 +4,7 @@ namespace Filters.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[MyActionFilter]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
