@@ -4,7 +4,8 @@ namespace Filters.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-[MyActionFilter]
+// DESCOMENTAR para ver o funcionamento
+// [MyActionFilter] // Adicionando o filtro ao WeatherForecastController como um atributo
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
@@ -20,6 +21,8 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
+    // DESCOMENTAR para ver o funcionamento
+    // [MyActionFilter] // Adicionando o filtro apenas a Action como um atributo
     public IEnumerable<WeatherForecast> Get()
     {
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
