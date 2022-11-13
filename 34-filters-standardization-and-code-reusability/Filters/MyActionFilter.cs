@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 
+namespace Filters;
+
 public class MyActionFilter : ActionFilterAttribute
 {
   public override void OnActionExecuted(ActionExecutedContext context)
