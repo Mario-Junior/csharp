@@ -17,7 +17,7 @@ public class TypedClientController : ControllerBase
   [Route("{cep}")]
   public async Task<IActionResult> GetCep(string cep)
   {
-    var address = await _cepService.GetCep(cep);
+    var address = await _cepService!.GetCep(cep)!;
     if (address == null)
     {
       return NotFound();
